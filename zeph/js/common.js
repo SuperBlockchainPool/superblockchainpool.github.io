@@ -2239,11 +2239,16 @@ function home_InitTemplate(parentStats, siblingStats) {
     }
 
 
+
+    
+
+
     updateText(`networkHashrate${coin}`, getReadableHashRateString(parentStats.network.difficulty / parentStats.config.coinDifficultyTarget) + '/sec');
     updateText(`networkDifficulty${coin}`, formatNumber(parentStats.network.difficulty.toString(), ' '));
     updateText(`blockchainHeight${coin}`, formatNumber(parentStats.network.height.toString(), ' '));
-    updateText(`networkLastReward${coin}`, getReadableCoin(parentStats, parentStats.lastblock.reward));
-
+    let rewardMinusNetworkFee = parentStats.lastblock.reward - (parentStats.lastblock.reward * (parentStats.config.networkFee ? parentStats.config.networkFee / 100 : 0))
+    updateText(`networkLastReward${coin}`, getReadableCoin(parentStats, rewardMinusNetworkFee));
+    // updateText(`networkLastReward${coin}`, getReadableCoin(parentStats, parentStats.lastblock.reward));
 
 
     Object.keys(siblingStats).forEach(key => {
@@ -2300,12 +2305,75 @@ function home_InitTemplate(parentStats, siblingStats) {
     let lastHash = updateText('lastHash', parentStats.lastblock.hash)
     if (lastHash)
         lastHash.setAttribute('href', getBlockchainUrl(parentStats.lastblock.hash, parentStats));
-
-
+    
     updateText('poolHashrate', `PROP: ${getReadableHashRateString(parentStats.pool.hashrate)}/sec`);
     updateText('poolHashrateSolo', `SOLO: ${getReadableHashRateString(parentStats.pool.hashrateSolo)}/sec`);
+      
+    updateText(`priceExchangeParent`, parentStats.health[parentStats.config.coin].price + ` ` + parentStats.config.symbol +  `/` + parentStats.config.priceCurrency);
+ 
 
+    function updateExchangeInfo() {
+        const priceExchangeElement = document.getElementById('priceExchange');
+        
+        //priceExchangeElement.innerHTML = '';
 
+        const parentStatsInfo = parentStats;      
+        const parentSymbol = parentStatsInfo.config.symbol;
+        const parentPrice = parentStatsInfo.health[parentStatsInfo.config.coin].price;
+        const parentCurrency = parentStatsInfo.config.priceCurrency;
+
+        const parentDivElement = document.createElement('span');
+        parentDivElement.className = 'coinexchange';
+        
+        const parentLabelElement = document.createElement('span');
+        parentLabelElement.className = 'value2';
+        //parentLabelElement.innerText = parentStatsInfo.config.priceSource.toUpperCase() + ': ';
+        
+        const parentSpanElement = document.createElement('span');
+        parentSpanElement.className = 'value2';
+        parentSpanElement.innerText = `${parentPrice} ${parentSymbol}/${parentCurrency}`;
+        
+        parentDivElement.appendChild(parentLabelElement);
+        parentDivElement.appendChild(parentSpanElement);
+        
+       // priceExchangeElement.appendChild(parentDivElement);
+
+        Object.keys(mergedStats).forEach(coinKey => {
+            const childStats = mergedStats[coinKey];
+            const childPrice = childStats.health[childStats.config.coin].price;
+            const childSymbol = childStats.config.symbol;
+            const childPriceSource = childStats.config.priceSource;
+            const childCurrency = childStats.config.priceCurrency;
+
+            const divElement = document.createElement('span');
+            divElement.className = 'coinexchange';  
+            
+            const labelElement = document.createElement('span');
+            labelElement.className = 'value2';
+            labelElement.innerText = childPriceSource.toUpperCase() + ': ';
+            
+            const spanElement = document.createElement('span');
+            spanElement.id = `priceExchange${coinKey}`;
+            spanElement.className = 'value2';
+            spanElement.innerText = formatNumber(`${childPrice} ${childSymbol}/${childCurrency}`);
+            
+            divElement.appendChild(labelElement);
+            divElement.appendChild(spanElement);
+        
+            priceExchangeElement.appendChild(divElement);
+        });
+    }
+
+    setInterval(updateExchangeInfo, 120000);
+
+    updateExchangeInfo();
+
+    const currentTitle = document.title;
+    document.title = `${currentTitle} - ${parentStats.config.coin}`;
+
+    updateText ('coinname_1', parentStats.config.coin);
+    updateText ('coinname_2', parentStats.config.coin);
+       
     var hashPowerSolo = parentStats.pool.hashrateSolo / (parentStats.network.difficulty / parentStats.config.coinDifficultyTarget) * 100;
     updateText ('hashPowerSolo', hashPowerSolo.toFixed(2) + '%');
 

@@ -1,0 +1,40 @@
+#page-wrapper {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+#faucets-wrapper {
+    margin-top: 6rem;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.faucets {
+    background: linear-gradient(107deg, #ee5252, #3c53e7, #23a6d5, #23d531);
+    background-size: 300% 300%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 5px;
+    animation: gradient 4s ease infinite;
+}
+.faucets-information-window {
+    margin: 0.5rem;
+    text-align: justify;
+}
+.faucet {
+    padding: 1.75em 1.75em 0.1em 1.75em;
+    background-color: #353849;
+    border-radius: 5px;
+    margin: 1.5em 1em 1.5em 1em;
+}
+.faucet .image {
+    border-radius: 5px 5px 0 0;
+    display: block;
+    margin-bottom: 1.75em;
+    margin-left: -1.75em;
+    margin-top: -1.75em;
+    position: relative;
+    width: calc(100% + 3.5em);
+}
+.faucet .image img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    margin: -30% 0% -30% 0%;
+    padding: 15%;
+}

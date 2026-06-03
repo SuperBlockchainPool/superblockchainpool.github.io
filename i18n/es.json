@@ -38,16 +38,7 @@
   "brand" : "SuperBlockchain Pool",
   "slogan" : "Piscinas Mineras Confiables",
   "mining-pools" : "Piscinas Mineras",
-  "coin-1" : "Monero",
-  "coin-2" : "Zephyr",
-  "coin-3" : "GNTLCoin",
-  "coin-4" : "Morelo",
-  "coin-5" : "Sispop",
-  "coin-6" : "Nevocoin",
-  "coin-7" : "MoneroClassic",
-  "coin-8" : "BitcoinMono",
-  "coin-9" : "Apepepow",
-  "coin-10" : "Infinium",
+  "all-pools" : "Ver todas las Piscinas Mineras",
   "faucets-information-window" : "Un grifo es una aplicación o un sitio web que distribuye pequeñas cantidades de criptomonedas como recompensa por completar tareas tan simples como ver anuncios, ver videos de productos, completar cuestionarios, hacer clic en enlaces o completar un captcha.",
   "web-miners-information-window" : "Usted puede minar criptomonedas directamente desde su navegador. Solamente seleccione la criptomoneda deseada de la lista, escriba la dirección de su billetera en el primer campo, seguidamente escriba el nombre de su minero empezando por un @ en el segundo campo y pulse en el botón start. ",
   "start-mining" : "Comenzar Mineria",
@@ -69,5 +60,5 @@
   "message" : "Mensaje",
   "social-networks" : "Redes Sociales",
   "donations" : "Donaciones",
-  "copyright" : "Copyright @ 2021 SuperBlockchain Pool. Todos los derechos reservados."
+  "copyright" : "Copyright @ <span id=\"current-year\">2025</span> SuperBlockchain Pool. Todos los derechos reservados."
 }

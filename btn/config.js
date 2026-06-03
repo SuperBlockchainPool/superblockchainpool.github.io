@@ -1,4 +1,4 @@
-var api = "https://superblockchain.con-ip.com:14022";
+var api = "https://superblockchain.zapto.org/api/btnc";
 let parentCoin = "BitcoinNova";
 
 var email = "superblockchain2018@gmail.com";
@@ -8,7 +8,7 @@ var facebook = "https://www.facebook.com/superblockchainpool";
 var twitter = "https://twitter.com/SuperBlockchaim";
 var instagram = "https://www.instagram.com/superblockchain/";
 
-var marketCurrencies = ["{symbol}-BTC", "{symbol}-LTC", "{symbol}-DOGE", "{symbol}-USDT", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
+var marketCurrencies = ["{symbol}-BTC", "{symbol}-LTC", "{symbol}-DOGE", "{symbol}-USDT"];
 
 var themeCss = "themes/default.css";
 var defaultLang = 'en';

@@ -155,13 +155,117 @@ ul:hover #contact a:hover {
     margin-right: -5px;
 }
 
-@media (min-width: 992px) {
+.coinexchange {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.darkmode {
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    z-index: 10000;
+    opacity: 1;
+}
+
+#priceExchange {
+    text-align: center;
+}
+
+@media (min-width: 1298px) {
     .brand .coin-hide {
         display: none;
     }
+    #statsUpdated {
+        display: inline-block !important;
+    }
 }
-@media (max-width: 991px) {
+@media (max-width: 1297px) {
+    .exchange {
+        height: 115px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1297px) {
+    .brand .coin-hide {
+        display: none;
+    }
+    #statsUpdated {
+        display: none !important;
+    }
+    #langSelector {
+        display: none !important;
+    }
+}
+@media (max-width: 992px) {
     .brand.coin-hide {
         display: none;
     }
+    #langSelector {
+        display: none !important;
+    }
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+body.dark-mode .infoBox {
+    background: #000000; 
+    background: -moz-linear-gradient(45deg, #000000 0%, #455a5f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #000000 0%,#455a5f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #000000 0%,#455a5f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c89a0', endColorstr='#5fbcd3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}  
+body.dark-mode .btn-primary {
+    background: #000000;
+    border-color: #606060;
+}  
+body.dark-mode .nav-side-menu, body.dark-mode .brand, body.dark-mode #top-bar{
+    background: #000000;
+}
+
+body.dark-mode .dropdown-menu,  body.dark-mode .dropdown-menu li {
+    background: #2e2e2e;
+}
+
+body.dark-mode .infoAlert {
+    background: #2e2e2e;
+    border: 2px #606060 solid;
+}
+
+body.dark-mode .hashInfo {
+    background: #2e2e2e;
+}
+
+body.dark-mode .card, body.dark-mode .nav-side-menu .active {
+    background: #838383;
+}
+
+body.dark-mode .nav-side-menu li:hover {
+    background: #414040;
+    border-left-color: #ffffff;
+}
+
+body.dark-mode .nav-side-menu ul .active {
+    border-left-color: #ffffff;
+}
+
+body.dark-mode .stats > div:not(#addressError) > i.fa {
+    color: #ffffff;
+}
+
+body.dark-mode .stats > div:not(#addressError) > span:not(.input-group-btn):first-of-type {
+    color: #ffffff;
+}
+
+body.dark-mode .table > thead > tr > th {
+    color: #ffffff;
+    border-bottom-color: #bbbbbb;
+}
+
+body.dark-mode a {
+    color: #ffffffbd;
+    border-bottom-color: #bbbbbb;
 }

@@ -1,0 +1,17 @@
+#page-wrapper {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+#privacy-policy-wrapper {
+    margin-top: 6rem;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.privacy-policy-initial-contents {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.privacy-policy-update-time {
+    font-size: 1.2rem;
+    font-weight: 600;
+}

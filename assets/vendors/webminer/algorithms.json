@@ -8,59 +8,11 @@
     "filename": "ztc-zentcash"
   },
   {
-    "name": "Cirquity",
-    "filename": "cirq-cirquity"
-  },
-  {
-    "name": "2ACoin",
-    "filename": "arms-2acoin"
-  },
-  {
-    "name": "BitcoinMono",
-    "filename": "btcm-bitcoinmono"
-  },
-  {
-    "name": "Traaitt",
-    "filename": "xte-traaitt"
-  },
-  {
-    "name": "TraaittCash",
-    "filename": "xtcash-traaittcash"
-  },
-  {
-    "name": "Bitcoin Nova",
-    "filename": "btn-bitcoinnova"
-  }, 
-  {
-    "name": "Sispop",
-    "filename": "sispop-sispop"
-  },
-  {
     "name": "Zephyr",
     "filename": "zeph-zephyr"
   },
   {
     "name": "Monero",
     "filename": "xmr-monero"
-  },
-  {
-    "name": "SecureCash",
-    "filename": "scsx-securecash"
-  },
-  {
-    "name": "Infinium - Cryptonight Lite V7",
-    "filename": "inf-infinium"
-  }, 
-  {
-    "name": "Qwertycoin",
-    "filename": "qwc-qwertycoin"
-  },
-  {
-    "name": "Infinium - Cryptonight",
-    "filename": "inf-cn-infinium"
-  }, 
-  {
-    "name": "Monero Classic",
-    "filename": "xmc-moneroclassic"
   }
 ]

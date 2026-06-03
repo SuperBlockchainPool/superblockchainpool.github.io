@@ -28,8 +28,11 @@
   "home" : "Home",
   "wallet-and-payment-gateways" : "Wallets and Payment Gateways",
   "payment-gateways": "Payment Gateways",
+  "payments-gateways-information-window" : "A crypto payment gateway lets businesses accept digital currencies like Bitcoin and Ethereum, securely processing transactions on the blockchain in real time.",
   "wallets-multicoin": "Wallets MultipleCoin",
+  "wallets-online-information-window" : "A multi-coin wallet allows you to store, send, and receive multiple types of cryptocurrencies in one place, using a single app or device.",
   "wallets": "Wallets",
+  "wallets-information-window" : "A wallet is a tool that stores your private keys and lets you send, receive, and manage cryptocurrencies securely.",
   "webminer" : "Webminer",
   "pools" : "Pools",
   "stats" : "Stats",
@@ -47,11 +50,12 @@
   "coin-3" : "GNTLCoin",
   "coin-4" : "Morelo",
   "coin-5" : "Sispop",
-  "coin-6" : "Nevocoin",
+  "coin-6" : "",
   "coin-7" : "MoneroClassic",
   "coin-8" : "BitcoinMono",
-  "coin-9" : "Apepepow",
+  "coin-9" : "",
   "coin-10" : "Infinium",
+  "all-pools" : "All Pools",
   "coin-1-info-1" : "Algorithm:",
   "coin-1-info-2" : "Reward:",
   "coin-1-info-3" : " ",
@@ -182,5 +186,5 @@
   "terms-of-service-modifications-content" : "SuperBlockchain Pool may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.",
   "terms-of-service-governing-law" : "Governing Law",
   "terms-of-service-governing-law-content" : "These terms and conditions are governed by and construed in accordance with the laws of Spain and you irrevocably submit to the exclusive jurisdiction of the courts in that state or location.",
-  "copyright" : "Copyright @ 2024 SuperBlockchain Pool Inc. All rights reserved."
+  "copyright" : "Copyright @ <span id=\"current-year\"></span> SuperBlockchain Pool Inc. All rights reserved."
 }

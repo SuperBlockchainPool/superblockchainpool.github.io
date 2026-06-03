@@ -1,622 +1,924 @@
 <!DOCTYPE HTML>
 <html lang="en">
-	<head>
-		<title data-i18n="title-home">SuperBlockchain Pool - Reliable Mining Pools</title>
-		<meta charset="utf-8" />
-		<meta name="title" content="SuperBlockchain Pool - Reliable Mining Pools"/>
-		<meta name="description" content="SuperBlockchain Pool is a mining group specializing in cryptonight cryptocurrency mining. Start getting your first coins in a very fast and safe way."/>
-		<meta property="og:title" content="SuperBlockchain Pool - Reliable Mining Pools"/>
-		<meta property="og:description" content="SuperBlockchain Pool is a mining group specializing in cryptonight cryptocurrency mining. Start getting your first coins in a very fast and safe way."/>
-		<meta property="og:image" content="https://superblockchain.con-ip.com/assets/img/superblockchainpool.jpg"/>
-		<meta property="og:url" content="https://superblockchain.con-ip.com"/>
-		<meta property="og:site_name" content="SuperBlockchain Pool - Reliable Mining Pools"/>
-		<meta property="og:locale" content="en_US"/>
-		<meta property="og:type" content="article"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-		<script src="assets/js/poolinfo.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
-		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css"/>
-		<link rel="stylesheet" href="assets/css/main.min.css"/>
+<head>
+	<title data-i18n="title-home">SuperBlockchain Pool - Reliable Mining Pools</title>
+	<meta charset="utf-8" />
+	<meta name="title" content="SuperBlockchain Pool - Reliable Mining Pools" />
+	<meta name="description" content="SuperBlockchain Pool is a mining group specializing in cryptonight cryptocurrency mining. Start getting your first coins in a very fast and safe way." />
+	<meta property="og:title" content="SuperBlockchain Pool - Reliable Mining Pools" />
+	<meta property="og:description" content="SuperBlockchain Pool is a mining group specializing in cryptonight cryptocurrency mining. Start getting your first coins in a very fast and safe way." />
+	<meta property="og:image" content="https://superblockchain.zapto.org/assets/img/superblockchainpool.jpg" />
+	<meta property="og:url" content="https://superblockchain.zapto.org" />
+	<meta property="og:site_name" content="SuperBlockchain Pool - Reliable Mining Pools" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="assets/css/main.min.css" />
+	<link rel="stylesheet" href="assets/css/homepage.css"/>
 </head>
-	<body class="is-preload">
-		
-  	<!---====== PAGE Start ===========-->
-			<div id="page-wrapper">
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html" data-i18n="logo">SuperBlockchain Pool</a></h1>
-						<nav>
-							<a href="#menu" data-i18n="menu">Menu</a>
-						</nav>
-					</header>
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2 data-i18n="menu">Menu</h2>
-							<ul class="links">
-								<li><a href="/index.html" data-i18n="home">Home</a></li>
-								<li><a href="/wallets-and-payment-gateways.html" data-i18n="wallet-and-payment-gateways">Wallets and Payment Gateways</a></li>
-								<li><a href="/webminer.html" data-i18n="webminer">Webminer</a></li>
-								<li><a href="/#pools" data-i18n="pools">Pools</a></li>
-								<li><a href="/#stats" data-i18n="stats">Stats</a></li>
-								<li><a href="/faucets.html"	data-i18n="faucets">Faucets</a></li>
-								<li><a href="/exchanges.html" data-i18n="exchanges">Exchanges</a></li>
-								<li><a href="/#contact" data-i18n="contact">Contact</a></li>
-							</ul>
-							<a href="#" data-i18n="close" class="close">Close</a>
-						</div>
-					</nav>
-				<!-- Wrapper -->
-					<section id="wrapper">
-						<header>
-							<div class="inner" id="pools">
-								<h2 data-i18n="brand">SuperBlockchain Pool</h2>
-								<p data-i18n="slogan">Reliable Mining Pools.</p>
-							</div>
-						</header>
-						<!-- Content -->
-							<div class="wrapper">
-								<div class="inner">
-									<h2 class="major" data-i18n="mining-pools">Mining Pools</h2>
-									<section class="features">
-										<h2 class="erased" data-i18n="mining-pools">Mining Pools</h2>
-											<div class="row">
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">
-													<article>
-														<a target="_blank" href="./xmr/" class="image"><img src="assets/img/pools/coin-1.webp" alt="Monero"/></a>
-														<h3 class="major" data-i18n="coin-1">Monero</h3>
-														<div class="row coin-info-base">
-															<div class="col-7 col-7-xsmall col-7-small col-7-medium col-7-large col-7-xlarge">
-																<strong data-i18n="coin-1-info-1">Algorithm:</strong> <span id="monero_algorithm_replicate">N/A</span> 
-															</div>	
-															<div class="col-5 col-5-xsmall col-5-small col-5-medium col-5-large col-5-xlarge">	
-																<strong data-i18n="coin-1-info-2">Reward:</strong> <span id="monero_poolBlockReward_replicate">N/A</span>
-															</div>
-														</div>									
-														<p class="coin-info-3" data-i18n="coin-1-info-3"></p>
-														<a target="_blank" href="./xmr/" class="special" data-i18n="start-mining">Start Mining</a>
-													</article>	
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">
-													<article>
-														<a target="_blank" href="./zeph/" class="image"><img src="assets/img/pools/coin-2.webp" alt="Zephyr"/></a>
-														<h3 class="major" data-i18n="coin-2">Zephyr</h3>
-														<div class="row coin-info-base">
-															<div class="col-7 col-7-xsmall col-7-small col-7-medium col-7-large col-7-xlarge">
-																<strong data-i18n="coin-2-info-1">Algorithm:</strong> <span id="zephyr_algorithm_replicate">N/A</span> 
-															</div>	
-															<div class="col-5 col-5-xsmall col-5-small col-5-medium col-5-large col-5-xlarge">	
-																<strong data-i18n="coin-2-info-2">Reward:</strong> <span id="zephyr_poolBlockReward_replicate">N/A</span>
-															</div>
-														</div>									
-														<p class="coin-info-3" data-i18n="coin-2-info-3"></p>
-														<a target="_blank" href="./zeph/" class="special" data-i18n="start-mining">Start Mining</a>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<a target="_blank" href="./gntl/" class="image"><img src="assets/img/pools/coin-3.webp" alt="GNTLCoin"/></a>
-														<h3 class="major" data-i18n="coin-3">GNTLCoin</h3>
-														<div class="row coin-info-base">
-															<div class="col-7 col-7-xsmall col-7-small col-7-medium col-7-large col-7-xlarge">
-																<strong data-i18n="coin-3-info-1">Algorithm:</strong> <span id="gntlcoin_algorithm_replicate">N/A</span> 
-															</div>	
-															<div class="col-5 col-5-xsmall col-5-small col-5-medium col-5-large col-5-xlarge">	
-																<strong data-i18n="coin-3-info-2">Reward:</strong> <span id="gntlcoin_poolBlockReward_replicate">N/A</span>
-															</div>
-														</div>									
-														<p class="coin-info-3" data-i18n="coin-3-info-3"></p>
-														<a target="_blank" href="./gntl/" class="special" data-i18n="start-mining">Start Mining</a>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<a target="_blank" href="./mrl/" class="image"><img src="assets/img/pools/coin-4.webp" alt="Morelo"/></a>
-														<h3 class="major" data-i18n="coin-4">Morelo</h3>
-														<div class="row coin-info-base">
-															<div class="col-7 col-7-xsmall col-7-small col-7-medium col-7-large col-7-xlarge">
-																<strong data-i18n="coin-4-info-1">Algorithm:</strong> <span id="morelo_algorithm_replicate">N/A</span> 
-															</div>	
-															<div class="col-5 col-5-xsmall col-5-small col-5-medium col-5-large col-5-xlarge">	
-																<strong data-i18n="coin-4-info-2">Reward:</strong> <span id="morelo_poolBlockReward_replicate">N/A</span>
-															</div>
-														</div>									
-														<p class="coin-info-3" data-i18n="coin-4-info-3"></p>
-														<a target="_blank" href="./mrl/" class="special" data-i18n="start-mining">Start Mining</a>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<a target="_blank" href="./sispop/" class="image"><img src="assets/img/pools/coin-5.webp" alt="Sispop"/></a>
-														<h3 class="major" data-i18n="coin-5">Sispop</h3>
-														<div class="row coin-info-base">
-															<div class="col-7 col-7-xsmall col-7-small col-7-medium col-7-large col-7-xlarge">
-																<strong data-i18n="coin-5-info-1">Algorithm:</strong> <span id="sispop_algorithm_replicate">N/A</span> 
-															</div>	
-															<div class="col-5 col-5-xsmall col-5-small col-5-medium col-5-large col-5-xlarge">	
-																<strong data-i18n="coin-5-info-2">Reward:</strong> <span id="sispop_poolBlockReward_replicate">N/A</span>
-															</div>
-														</div>									
-														<p class="coin-info-3" data-i18n="coin-5-info-3"></p>
-														<a target="_blank" href="./sispop/" class="special" data-i18n="start-mining">Start Mining</a>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<a target="_blank" href="./nevo/" class="image"><img src="assets/img/pools/coin-6.webp" alt="Nevocoin"/></a>
-														<h3 class="major" data-i18n="coin-6">Nevocoin</h3>
-														<div class="row coin-info-base">
-															<div class="col-7 col-7-xsmall col-7-small col-7-medium col-7-large col-7-xlarge">
-																<strong data-i18n="coin-6-info-1">Algorithm:</strong> <span id="nevocoin_algorithm_replicate">N/A</span> 
-															</div>	
-															<div class="col-5 col-5-xsmall col-5-small col-5-medium col-5-large col-5-xlarge">	
-																<strong data-i18n="coin-6-info-2">Reward:</strong> <span id="nevocoin_poolBlockReward_replicate">N/A</span>
-															</div>
-														</div>									
-														<p class="coin-info-3" data-i18n="coin-6-info-3"></p>
-														<a target="_blank" href="./nevo/" class="special" data-i18n="start-mining">Start Mining</a>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<a target="_blank" href="./xmc/" class="image"><img src="assets/img/pools/coin-7.webp" alt="MoneroClassic"/></a>
-														<h3 class="major" data-i18n="coin-7">Monero Classic</h3>
-														<div class="row coin-info-base">
-															<div class="col-7 col-7-xsmall col-7-small col-7-medium col-7-large col-7-xlarge">
-																<strong data-i18n="coin-7-info-1">Algorithm:</strong> <span id="moneroclassic_algorithm_replicate">N/A</span> 
-															</div>	
-															<div class="col-5 col-5-xsmall col-5-small col-5-medium col-5-large col-5-xlarge">	
-																<strong data-i18n="coin-7-info-2">Reward:</strong> <span id="moneroclassic_poolBlockReward_replicate">N/A</span>
-															</div>
-														</div>									
-														<p class="coin-info-3" data-i18n="coin-7-info-3"></p>
-														<a target="_blank" href="./xmc/" class="special" data-i18n="start-mining">Start Mining</a>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<a target="_blank" href="./btcm/" class="image"><img src="assets/img/pools/coin-8.webp" alt="BitcoinMono"/></a>
-														<h3 class="major" data-i18n="coin-8">Bitcoin Mono</h3>
-														<div class="row coin-info-base">
-															<div class="col-6 col-6-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
-																<strong data-i18n="coin-8-info-1">Algorithm:</strong> <span id="bitcoinmono_algorithm_replicate">N/A</span> 
-															</div>	
-															<div class="col-6 col-6-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">	
-																<strong data-i18n="coin-8-info-2">Reward:</strong> <span id="bitcoinmono_poolBlockReward_replicate">N/A</span>
-															</div>
-														</div>									
-														<p class="coin-info-3" data-i18n="coin-8-info-3"></p>
-														<a target="_blank" href="./btcm/" class="special" data-i18n="start-mining">Start Mining</a>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<a target="_blank" href="./apepepow/" class="image"><img src="assets/img/pools/coin-9.webp" alt="Apepepow"/></a>
-														<h3 class="major" data-i18n="coin-9">Apepepow</h3>
-														<div class="row coin-info-base">
-															<div class="col-7 col-7-xsmall col-7-small col-7-medium col-7-large col-7-xlarge">
-																<strong data-i18n="coin-9-info-1">Algorithm:</strong> <span id="apepepow_algorithm_replicate">N/A</span> 
-															</div>	
-															<div class="col-5 col-5-xsmall col-5-small col-5-medium col-5-large col-5-xlarge">	
-																<strong data-i18n="coin-9-info-2">Reward:</strong> <span id="apepepow_poolBlockReward_replicate">N/A</span>
-															</div>
-														</div>									
-														<p class="coin-info-3" data-i18n="coin-9-info-3"></p>
-														<a target="_blank" href="./apepepow/" class="special" data-i18n="start-mining">Start Mining</a>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<a target="_blank" href="./inf/" class="image"><img src="assets/img/pools/coin-10.webp" alt="Infinium"/></a>
-														<h3 class="major" data-i18n="coin-10">Infinium</h3>
-														<div class="row coin-info-base">
-															<div class="col-7 col-7-xsmall col-7-small col-7-medium col-7-large col-7-xlarge">
-																<strong data-i18n="coin-10-info-1">Algorithm:</strong> <span id="infinium_cn_lt_v7_algorithm_replicate">N/A</span> 
-															</div>	
-															<div class="col-5 col-5-xsmall col-5-small col-5-medium col-5-large col-5-xlarge">	
-																<strong data-i18n="coin-10-info-2">Reward:</strong> <span id="infinium_cn_lt_v7_poolBlockReward_replicate">N/A</span>
-															</div>
-														</div>									
-														<p class="coin-info-3" data-i18n="coin-10-info-3"></p>
-														<a target="_blank" href="./inf/" class="special" data-i18n="start-mining">Start Mining</a>
-													</article>
-												</div>
-											</div>
-									</section>
-								</div>
-							</div>
-							<header>
-								<div class="inner" id="stats">
-									<h2 data-i18n="stats">Stats</h2>
-									<p data-i18n="stats-data">Statistical information of swimming pools.</p>
-								</div>
-							</header>
-							<!-- Content -->
-								<div class="wrapper">
-									<div class="inner">
-										<section class="features">
-											<h2 class="erased" data-i18n="stats">Stats</h2>
-											<div class="row">
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">
-													<article>
-														<h3 class="major" data-i18n="coin-1">Monero</h3>
-														<div class="coin">
-															<a target="_blank" href="http://superblockchain.con-ip.com/xmr/">
-																<ul class="stats">
-																	<li><strong><span id="monero_poolMiners">...</span></strong> <p data-i18n="active-miners">Active Miners</p></li>
-																	<li><strong><span id="monero_poolWorkers">...</span></strong> <p data-i18n="active-workers">Active Workers</p></li>
-																	<li><strong><span id="monero_poolHashrate">...</span></strong> <p data-i18n="pool-hashrate">Pool Hashrate</p></li>
-																	<li><strong><span id="monero_networkHashrate">...</span></strong> <p data-i18n="network-hashrate">Network Hashrate</p></li>
-																	<li><strong><span id="monero_hashPower">...</span></strong> <p data-i18n="of-network-hashrate">of Network Hashrate</p></li>
-																	<li><strong><span id="monero_blocksFound">...</span></strong> <p data-i18n="blocks-found">Blocks Found</p></li>
-																	<li><strong><span id="monero_algorithm">...</span></strong> <p data-i18n="algorithm">Algorithm</p></li>
-																</ul>
-															</a>
-														</div>
-													</article>
-												</div>		
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">
-													<article>
-														<h3 class="major" data-i18n="coin-2">Zephyr</h3>
-														<div class="coin">
-															<a target="_blank" href="http://superblockchain.con-ip.com/zeph/">
-																<ul class="stats">
-																	<li><strong><span id="zephyr_poolMiners">...</span></strong> <p data-i18n="active-miners">Active Miners</p></li>
-																	<li><strong><span id="zephyr_poolWorkers">...</span></strong> <p data-i18n="active-workers">Active Workers</p></li>
-																	<li><strong><span id="zephyr_poolHashrate">...</span></strong> <p data-i18n="pool-hashrate">Pool Hashrate</p></li>
-																	<li><strong><span id="zephyr_networkHashrate">...</span></strong> <p data-i18n="network-hashrate">Network Hashrate</p></li>
-																	<li><strong><span id="zephyr_hashPower">...</span></strong> <p data-i18n="of-network-hashrate">of Network Hashrate</p></li>
-																	<li><strong><span id="zephyr_blocksFound">...</span></strong> <p data-i18n="blocks-found">Blocks Found</p></li>
-																	<li><strong><span id="zephyr_algorithm">...</span></strong> <p data-i18n="algorithm">Algorithm</p></li>
-																</ul>
-															</a>
-														</div>
-													</article>
-												</div>	
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">
-													<article>
-														<h3 class="major" data-i18n="coin-3">GNTLCoin</h3>
-														<div class="coin">
-																	<a target="_blank" href="http://superblockchain.con-ip.com/gntl/">
-																			<ul class="stats">
-																					<li><strong><span id="gntlcoin_poolMiners">...</span></strong> <p data-i18n="active-miners">Active Miners</p></li>
-																					<li><strong><span id="gntlcoin_poolWorkers">...</span></strong> <p data-i18n="active-workers">Active Workers</p></li>
-																					<li><strong><span id="gntlcoin_poolHashrate">...</span></strong> <p data-i18n="pool-hashrate">Pool Hashrate</p></li>
-																					<li><strong><span id="gntlcoin_networkHashrate">...</span></strong> <p data-i18n="network-hashrate">Network Hashrate</p></li>
-																					<li><strong><span id="gntlcoin_hashPower">...</span></strong> <p data-i18n="of-network-hashrate">of Network Hashrate</p></li>
-																					<li><strong><span id="gntlcoin_blocksFound">...</span></strong> <p data-i18n="blocks-found">Blocks Found</p></li>
-																					<li><strong><span id="gntlcoin_algorithm">...</span></strong> <p data-i18n="algorithm">Algorithm</p></li>
-																			</ul>
-																	</a>
-															</div>
-													</article>
-												</div>	
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">
-													<article>
-														<h3 class="major" data-i18n="coin-4">Morelo</h3>
-														<div class="coin">
-															<a target="_blank" href="http://superblockchain.con-ip.com/mrl/">
-																<ul class="stats">
-																	<li><strong><span id="morelo_poolMiners">...</span></strong> <p data-i18n="active-miners">Active Miners</p></li>
-																	<li><strong><span id="morelo_poolWorkers">...</span></strong> <p data-i18n="active-workers">Active Workers</p></li>
-																	<li><strong><span id="morelo_poolHashrate">...</span></strong> <p data-i18n="pool-hashrate">Pool Hashrate</p></li>
-																	<li><strong><span id="morelo_networkHashrate">...</span></strong> <p data-i18n="network-hashrate">Network Hashrate</p></li>
-																	<li><strong><span id="morelo_hashPower">...</span></strong> <p data-i18n="of-network-hashrate">of Network Hashrate</p></li>
-																	<li><strong><span id="morelo_blocksFound">...</span></strong> <p data-i18n="blocks-found">Blocks Found</p></li>
-																	<li><strong><span id="morelo_algorithm">...</span></strong> <p data-i18n="algorithm">Algorithm</p></li>
-																</ul>
-															</a>
-														</div>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<h3 class="major" data-i18n="coin-5">Sispop</h3>
-														<div class="coin">
-															<a target="_blank" href="http://superblockchain.con-ip.com/sispop/">
-																<ul class="stats">
-																	<li><strong><span id="sispop_poolMiners">...</span></strong> <p data-i18n="active-miners">Active Miners</p></li>
-																	<li><strong><span id="sispop_poolWorkers">...</span></strong> <p data-i18n="active-workers">Active Workers</p></li>
-																	<li><strong><span id="sispop_poolHashrate">...</span></strong> <p data-i18n="pool-hashrate">Pool Hashrate</p></li>
-																	<li><strong><span id="sispop_networkHashrate">...</span></strong> <p data-i18n="network-hashrate">Network Hashrate</p></li>
-																	<li><strong><span id="sispop_hashPower">...</span></strong> <p data-i18n="of-network-hashrate">of Network Hashrate</p></li>
-																	<li><strong><span id="sispop_blocksFound">...</span></strong> <p data-i18n="blocks-found">Blocks Found</p></li>
-																	<li><strong><span id="sispop_algorithm">...</span></strong> <p data-i18n="algorithm">Algorithm</p></li>
-																</ul>
-															</a>
-														</div>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<h3 class="major" data-i18n="coin-6">Nevocoin</h3>
-														<div class="coin">
-															<a target="_blank" href="http://superblockchain.con-ip.com/nevo/">
-																<ul class="stats">
-																	<li><strong><span id="nevocoin_poolMiners">...</span></strong> <p data-i18n="active-miners">Active Miners</p></li>
-																	<li><strong><span id="nevocoin_poolWorkers">...</span></strong> <p data-i18n="active-workers">Active Workers</p></li>
-																	<li><strong><span id="nevocoin_poolHashrate">...</span></strong> <p data-i18n="pool-hashrate">Pool Hashrate</p></li>
-																	<li><strong><span id="nevocoin_networkHashrate">...</span></strong> <p data-i18n="network-hashrate">Network Hashrate</p></li>
-																	<li><strong><span id="nevocoin_hashPower">...</span></strong> <p data-i18n="of-network-hashrate">of Network Hashrate</p></li>
-																	<li><strong><span id="nevocoin_blocksFound">...</span></strong> <p data-i18n="blocks-found">Blocks Found</p></li>
-																	<li><strong><span id="nevocoin_algorithm">...</span></strong> <p data-i18n="algorithm">Algorithm</p></li>
-																</ul>
-															</a>
-														</div>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<h3 class="major" data-i18n="coin-7">MoneroClassic</h3>
-														<div class="coin">
-															<a target="_blank" href="http://superblockchain.con-ip.com/xmc/">
-																<ul class="stats">
-																	<li><strong><span id="moneroclassic_poolMiners">...</span></strong> <p data-i18n="active-miners">Active Miners</p></li>
-																	<li><strong><span id="moneroclassic_poolWorkers">...</span></strong> <p data-i18n="active-workers">Active Workers</p></li>
-																	<li><strong><span id="moneroclassic_poolHashrate">...</span></strong> <p data-i18n="pool-hashrate">Pool Hashrate</p></li>
-																	<li><strong><span id="moneroclassic_networkHashrate">...</span></strong> <p data-i18n="network-hashrate">Network Hashrate</p></li>
-																	<li><strong><span id="moneroclassic_hashPower">...</span></strong> <p data-i18n="of-network-hashrate">of Network Hashrate</p></li>
-																	<li><strong><span id="moneroclassic_blocksFound">...</span></strong> <p data-i18n="blocks-found">Blocks Found</p></li>
-																	<li><strong><span id="moneroclassic_algorithm">...</span></strong> <p data-i18n="algorithm">Algorithm</p></li>
-																</ul>
-															</a>
-														</div>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<h3 class="major" data-i18n="coin-8">BitcoinMono</h3>
-														<div class="coin">
-															<a target="_blank" href="http://superblockchain.con-ip.com/btcm/">
-																<ul class="stats">
-																	<li><strong><span id="bitcoinmono_poolMiners">...</span></strong> <p data-i18n="active-miners">Active Miners</p></li>
-																	<li><strong><span id="bitcoinmono_poolWorkers">...</span></strong> <p data-i18n="active-workers">Active Workers</p></li>
-																	<li><strong><span id="bitcoinmono_poolHashrate">...</span></strong> <p data-i18n="pool-hashrate">Pool Hashrate</p></li>
-																	<li><strong><span id="bitcoinmono_networkHashrate">...</span></strong> <p data-i18n="network-hashrate">Network Hashrate</p></li>
-																	<li><strong><span id="bitcoinmono_hashPower">...</span></strong> <p data-i18n="of-network-hashrate">of Network Hashrate</p></li>
-																	<li><strong><span id="bitcoinmono_blocksFound">...</span></strong> <p data-i18n="blocks-found">Blocks Found</p></li>
-																	<li><strong><span id="bitcoinmono_algorithm">...</span></strong> <p data-i18n="algorithm">Algorithm</p></li>
-																</ul>
-															</a>
-														</div>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<h3 class="major" data-i18n="coin-9">Apepepow</h3>
-														<div class="coin">
-															<a target="_blank" href="http://superblockchain.con-ip.com/apepepow/">
-																<ul class="stats">
-																	<li><strong><span id="apepepow_poolMiners">...</span></strong> <p data-i18n="active-miners">Active Miners</p></li>
-																	<li><strong><span id="apepepow_poolWorkers">...</span></strong> <p data-i18n="active-workers">Active Workers</p></li>
-																	<li><strong><span id="apepepow_poolHashrate">...</span></strong> <p data-i18n="pool-hashrate">Pool Hashrate</p></li>
-																	<li><strong><span id="apepepow_networkHashrate">...</span></strong> <p data-i18n="network-hashrate">Network Hashrate</p></li>
-																	<li><strong><span id="apepepow_hashPower">...</span></strong> <p data-i18n="of-network-hashrate">of Network Hashrate</p></li>
-																	<li><strong><span id="apepepow_blocksFound">...</span></strong> <p data-i18n="blocks-found">Blocks Found</p></li>
-																	<li><strong><span id="apepepow_algorithm">...</span></strong> <p data-i18n="algorithm">Algorithm</p></li>
-																</ul>
-															</a>
-														</div>
-													</article>
-												</div>
-												<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">	
-													<article>
-														<h3 class="major" data-i18n="coin-10">Infinium</h3>
-														<div class="coin">
-															<a target="_blank" href="http://superblockchain.con-ip.com/inf/">
-																<ul class="stats">
-																	<li><strong><span id="infinium_cn_lt_v7_poolMiners">...</span></strong> <p data-i18n="active-miners">Active Miners</p></li>
-																	<li><strong><span id="infinium_cn_lt_v7_poolWorkers">...</span></strong> <p data-i18n="active-workers">Active Workers</p></li>
-																	<li><strong><span id="infinium_cn_lt_v7_poolHashrate">...</span></strong> <p data-i18n="pool-hashrate">Pool Hashrate</p></li>
-																	<li><strong><span id="infinium_cn_lt_v7_networkHashrate">...</span></strong> <p data-i18n="network-hashrate">Network Hashrate</p></li>
-																	<li><strong><span id="infinium_cn_lt_v7_hashPower">...</span></strong> <p data-i18n="of-network-hashrate">of Network Hashrate</p></li>
-																	<li><strong><span id="infinium_cn_lt_v7_blocksFound">...</span></strong> <p data-i18n="blocks-found">Blocks Found</p></li>
-																	<li><strong><span id="infinium_cn_lt_v7_algorithm">...</span></strong> <p data-i18n="algorithm">Algorithm</p></li>
-																</ul>
-															</a>
-														</div>
-													</article>
-												</div>			
-											</div>
-										</section>
-									</div>
-								</div>
-					</section>	
-				
-				<!---====== FOOTER Start ===========-->
-				<section id="footer">
-					<div class="inner">
-						<div class="row">
-							
-							<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">
-								
-								<!-- CONTACT Start -->
-								<div id="contact">
-								<h2 class="major" data-i18n="contact">Contact</h2>
-									<form method="post" action="assets/vendors/form/send.php">
-										<div class="fields">
-											<div class="field">
-												<label for="Name" data-i18n="name">Name</label>
-												<input type="text" class="form-control" name="Name" id="Name"/>
-											</div>
-											<div class="field">
-												<label for="Email" data-i18n="email">Email</label>
-												<input type="Email" class="form-control" name="Email" id="Email"/>
-											</div>
-											<div class="field">
-												<label for="Message" data-i18n="message">Message</label>
-												<textarea name="Message" class="form-control" id="Message" rows="4"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message"/></li>
-										</ul>
-									</form>
-								</div>
-								<!-- CONTACT End -->
-								
-							</div>
-																			
-							<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">
-								
-								<!-- SOCIAL NETWORKS Start -->
-								<h2 class="major" data-i18n="social-networks">Social Networks</h2>
-								<div class="row">
-									<div class="col-3 col-sm-3 col-md-3 col-lg-3">
-										<div class="textbox">
-											<div class="textbox-image"><a target="_blank" href="https://twitter.com/SuperBlockchaim"><i class="icon brands fa-twitter fa-2x"></i></a></div>
-										</div>
-									</div>
-									<div class="col-3 col-sm-3 col-md-3 col-lg-3">
-										<div class="textbox">
-											<div class="textbox-image"><a target="_blank" href="https://www.facebook.com/superblockchainpool/"><i class="icon brands fa-facebook-f fa-2x"></i></a></div>
-										</div>
-									</div>
-									<div class="col-3 col-sm-3 col-md-3 col-lg-3">
-										<div class="textbox">
-											<div class="textbox-image"><a target="_blank" href="https://t.me/joinchat/FGO99xKu_KNJCwCJcu3kow"><i class="icon brands fa-telegram fa-2x"></i></a></div>
-										</div>
-									</div>
-									<div class="col-3 col-sm-3 col-md-3 col-lg-3">
-										<div class="textbox">
-											<div class="textbox-image"><a target="_blank" href="https://discord.gg/GenJJ6H"><i class="icon brands fa-discord fa-2x"></i></a></div>
-										</div>
-									</div>
-								</div>
-								<!-- SOCIAL NETWORKS End -->
-								
-								<!-- DONATIONS Start -->
-								<h2 class="major" data-i18n="donations">Donations</h2>
-								<div class="row">
-									<div class="col-6 col-6-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
-										<div class="textbox">
-											<div class="textbox-image"><img class="textbox-image-donation" src="assets/img/donations/bitcoin.webp" alt="Donate Bitcoin"></div>
-										</div>
-									</div>
-									<div class="col-6 col-6-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
-										<div class="textbox">
-											<div class="textbox-image"><img class="textbox-image-donation" src="assets/img/donations/bitcoincash.webp" alt="Donate Bitcoin Cash"></div>
-										</div>
-									</div>
-									<div class="col-6 col-6-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
-										<div class="textbox">
-											<div class="textbox-image"><img class="textbox-image-donation" src="assets/img/donations/ethereum.webp" alt="Donate Ethereum"></div>
-										</div>
-									</div>
-									<div class="col-6 col-6-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
-										<div class="textbox">
-											<div class="textbox-image"><img class="textbox-image-donation" src="assets/img/donations/litecoin.webp" alt="Donate Litecoin"></div>
-										</div>
-									</div>
-								</div>
-								<!-- DONATIONS End -->
-								
-							</div>						
-									
-							<!-- SUBFOOTER Start -->
-                            <div class="subfooter">
-                                <div class="row">
-                                    <div class="inner">
 
-                                        <!-- LOWER MENUS Start -->
-                                        <div class="col-12 col-12-xsmall col-12-small col-12-medium col-12-large col-12-xlarge bottom-menu">
-                                            <div class="row">
-
-                                                <!-- FOOTER MENU Start -->
-                                                <div class="col-8 col-12-xsmall col-12-small col-9-medium col-9-large col-9-xlarge bottom-menu-standard-initial">
-                                                        <h3 class="bottom-menu-standard-title" data-i18n="menu">Menu</h3>
-                                                        <div class="row">
-                                                            <div class="col-6 col-12-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
-                                                                    <ul class="bottom-menu-standard">
-                                                                        <li><a class="bottom-menu-standard-link" href="index.html" data-i18n="home">Home</a></li>
-                                                                        <li><a class="bottom-menu-standard-link" href="wallets-and-payment-gateways.html" data-i18n="wallets">Wallets</a></li>
-                                                                        <li><a class="bottom-menu-standard-link" href="webminer.html" data-i18n="webminer">Webminer</a></li>
-                                                                        <li><a class="bottom-menu-standard-link" href="index.html#pools" data-i18n="pools">Pools</a></li>
-                                                                    </ul>
-                                                            </div>
-                                                            <div class="col-6 col-12-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
-                                                                    <ul class="bottom-menu-standard">
-                                                                        <li><a class="bottom-menu-standard-link" href="index.html#stats" data-i18n="stats">Stats</a></li>
-                                                                        <li><a class="bottom-menu-standard-link" href="faucets.html" data-i18n="faucets">Faucets</a></li>
-                                                                        <li><a class="bottom-menu-standard-link" href="exchanges.html" data-i18n="exchanges">Exchanges</a></li>
-                                                                        <li><a class="bottom-menu-standard-link" href="loans-and-earn-interests.html" data-i18n="loans-and-earn-interests">Loans and Earn Interests</a></li>
-                                                                        <li><a class="bottom-menu-standard-link" href="#contact" data-i18n="contact">Contact</a></li>
-                                                                    </ul>
-                                                            </div>
-                                                        </div>	
-                                                </div>
-                                                <!-- FOOTER MENU End -->
-
-                                                <!-- LEGAL MENU Start -->
-                                                <div class="col-4 col-12-xsmall col-12-small col-3-medium col-3-large col-3-xlarge bottom-menu-legal-initial">
-                                                    <h3 class="bottom-menu-legal-title" data-i18n="legal">Legal</h3>
-                                                        <ul class="bottom-menu-legal">	
-                                                            <li><a class="bottom-menu-legal-link" href="privacy-policy.html" data-i18n="privacy-policy">Privacy Policy</a></li>
-                                                            <li><a class="bottom-menu-legal-link" href="cookie-policy.html" data-i18n="cookie-policy">Cookie Policy</a></li>
-                                                            <li><a class="bottom-menu-legal-link" href="terms-of-service.html" data-i18n="terms-of-service">Terms of Service</a></li>
-                                                        </ul>
-                                                </div>
-                                                <!-- LEGAL MENU End -->
-
-                                            </div>
-                                        </div>
-                                        <!-- LOWER MENUS End-->
-                                        
-                                        <!-- COPYRIGHT Start -->
-                                        <div class="col-12 col-12-xsmall col-12-small col-12-medium col-12-large col-12-xlarge">
-                                            <div class="copyright">
-                                                <p data-i18n="copyright">Copyright &copy; 2024 SuperBlockchain Pool Inc. All rights reserved.</p>
-                                            </div>
-                                        </div>
-                                        <!-- COPYRIGHT End -->
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- SUBFOOTER End -->	
-						</div>
-					</div>
-				</section>
-				<!---====== FOOTER End ===========-->
-				
-				<!---====== GDPR Cookies Start ===========-->
-				<div id="gdpr">
-					<div class="gdpr-message">
-						<span data-i18n="gdpr-message">We use our own and third-party cookies to obtain statistical data on the navigation of our users and improve our services. If you accept or continue browsing, we consider that you accept their use.</span></a>
-					</div>
-					<div class="gdpr-buttons">
-						<button class="gdpr-button" onclick="acceptCookies()" class=""><span data-i18n="gdpr-accept">Ok, I agree</span></button>
-						<button class="gdpr-button privacy-policy" onclick="privacyPolicy()" class=""><span data-i18n="gdpr-privacy-policy">Privacy Policy</span></button>
-					</div>
-				</div>
-				<!---====== GDPR Cookies End ===========-->
-				
-				<!---====== LANG Start ===========-->
-				<div class="lenguage locale-switcher">
-					<span class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-globe"></i></span>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#" data-i18n="CN" data-locale="zh">CN</a>
-							<a class="dropdown-item" href="#" data-i18n="DE" data-locale="de">DE</a>
-							<a class="dropdown-item" href="#" data-i18n="EN" data-locale="en">EN</a>
-							<a class="dropdown-item" href="#" data-i18n="ES" data-locale="es">ES</a>
-							<a class="dropdown-item" href="#" data-i18n="FR" data-locale="fr">FR</a>
-							<a class="dropdown-item" href="#" data-i18n="RU"data-locale="ru">RU</a>
-					</div> 
-				</div>
-				<!---====== LANG End ===========-->
-		
+<body class="is-preload">
+	<div id="page-wrapper">
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="/" data-i18n="logo">SuperBlockchain Pool</a></h1>
+			<nav>
+				<a href="#menu" data-i18n="menu">Menu</a>
+			</nav>
+		</header>
+		<!-- End Header -->
+		<!-- Menu -->
+		<nav id="menu">
+			<div class="inner">
+				<h2 data-i18n="menu">Menu</h2>
+				<ul class="links">
+					<li><a href="/" data-i18n="home">Home</a></li>
+					<li><a href="/wallets-and-payment-gateways" data-i18n="wallet-and-payment-gateways">Wallets and	Payment Gateways</a></li>
+					<li><a href="/webminer" data-i18n="webminer">Webminer</a></li>
+					<li><a href="/#pools" data-i18n="pools">Pools</a></li>
+					<li><a href="/faucets" data-i18n="faucets">Faucets</a></li>
+					<li><a href="/exchanges" data-i18n="exchanges">Exchanges</a></li>
+					<li><a href="/#contact" data-i18n="contact">Contact</a></li>
+				</ul>
+				<a href="#" data-i18n="close" class="close">Close</a>
 			</div>
-			<!---====== PAGE End ===========-->
-	
-			<!---====== SCRIPT Start ===========-->
-			<script type="application/ld+json">
+		</nav>
+		<!-- End Menu -->
+		<!-- Wrapper -->
+		<section id="wrapper">
+			<header>
+				<div  id="pools">
+					<h2 data-i18n="brand">SuperBlockchain Pool</h2>
+					<p data-i18n="slogan">Reliable Mining Pools.</p>
+					<div class="hero-features">
+						<div class="feature-card">
+							<i class="fas fa-bolt"></i>
+							<h3>Fast, reliable mining</h3>
+							<p>Connect instantly and monitor your pool performance in real time.</p>
+						</div>
+						<div class="feature-card">
+							<i class="fas fa-chart-line"></i>
+							<h3>Live statistics</h3>
+							<p>See hash rate, workers and block rewards updated automatically.</p>
+						</div>
+						<div class="feature-card">
+							<i class="fas fa-user-friends"></i>
+							<h3>Easy access</h3>
+							<p>Navigate quickly to pools, wallets, and support with a cleaner layout.</p>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- Content -->
+			<div class="wrapper">
+				<div >
+						<h2 class="mining-pools major" data-i18n="mining-pools">Mining Pools</h2>
+						<div class="pool-search">
+							<label for="pool-search-input">Search pools</label>
+							<input id="pool-search-input" type="search" placeholder="Search pools, coins or algorithm" aria-label="Search pools" />
+						</div>
+						<section class="features all-pools-table">
+						<div class="row">
+							<div class="card search-pool-algo">
+								<div class="card-body">
+									<div class="table-responsive">
+								<div class="pool-grid-header">
+									<span>Pool</span>
+									<span>Statistics</span>
+								</div>
+								<div class="pool-grid">
+										<div class="pool-card search-pool-id" data-href="infinium" id="Infinium">
+											<div class="card-header">
+												<a class="hot_link" href="infinium"><img src="assets/img/coins/infinium.webp" alt="Infinium" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Infinium</strong>
+													<div class="pool-algo"><span id="infinium_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="infinium_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="infinium_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="infinium_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="infinium_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="infinium_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="infinium_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="infinium_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="infinium_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="infinium_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="zano" id="Zano">
+											<div class="card-header">
+												<a class="hot_link" href="zano"><img src="assets/img/coins/zano.webp" alt="Zano" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Zano</strong>
+													<div class="pool-algo"><span id="zano_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="zano_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="zano_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="zano_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="zano_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="zano_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="zano_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="zano_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="zano_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="zano_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="evox" id="Evolution">
+											<div class="card-header">
+												<a class="hot_link" href="evox"><img src="assets/img/coins/evox.webp" alt="Evolution" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Evolution</strong>
+													<div class="pool-algo"><span id="evox_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="evox_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="evox_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="evox_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="evox_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="evox_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="evox_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="evox_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="evox_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="evox_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="nir" id="Nirmata">
+											<div class="card-header">
+												<a class="hot_link" href="nir"><img src="assets/img/coins/nirmata.webp" alt="Nirmata" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Nirmata</strong>
+													<div class="pool-algo"><span id="nirmata_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="nirmata_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="nirmata_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="nirmata_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="nirmata_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="nirmata_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="nirmata_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="nirmata_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="nirmata_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="nirmata_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="ztc" id="ZentCash">
+											<div class="card-header">
+												<a class="hot_link" href="ztc"><img src="assets/img/coins/zentcash.webp" alt="ZentCash" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Zent Cash</strong>
+													<div class="pool-algo"><span id="zentcash_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="zentcash_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="zentcash_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="zentcash_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="zentcash_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="zentcash_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="zentcash_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="zentcash_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="zentcash_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="zentcash_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="wrkz" id="Wrkzcoin">
+											<div class="card-header">
+												<a class="hot_link" href="wrkz"><img src="assets/img/coins/wrkzcoin.webp" alt="Wrkzcoin" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Wrkzcoin</strong>
+													<div class="pool-algo"><span id="wrkzcoin_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="wrkzcoin_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="wrkzcoin_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="wrkzcoin_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="wrkzcoin_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="wrkzcoin_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="wrkzcoin_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="wrkzcoin_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="wrkzcoin_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="wrkzcoin_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="zeph" id="Zephyr">
+											<div class="card-header">
+												<a class="hot_link" href="zeph"><img src="assets/img/coins/zephyr.webp" alt="Zephyr" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Zephyr</strong>
+													<div class="pool-algo"><span id="zephyr_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="zephyr_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="zephyr_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="zephyr_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="zephyr_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="zephyr_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="zephyr_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="zephyr_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="zephyr_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="zephyr_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="xmr" id="Monero">
+											<div class="card-header">
+												<a class="hot_link" href="xmr"><img src="assets/img/coins/monero.webp" alt="Monero" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Monero</strong>
+													<div class="pool-algo"><span id="monero_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="monero_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="monero_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="monero_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="monero_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="monero_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="monero_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="monero_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="monero_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="monero_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="mrl" id="Morelo">
+											<div class="card-header">
+												<a class="hot_link" href="mrl"><img src="assets/img/coins/morelo.webp" alt="Morelo" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Morelo</strong>
+													<div class="pool-algo"><span id="morelo_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="morelo_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="morelo_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="morelo_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="morelo_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="morelo_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="morelo_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="morelo_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="morelo_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="morelo_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="gntl" id="GNTLCoin">
+											<div class="card-header">
+												<a class="hot_link" href="gntl"><img src="assets/img/coins/gntlcoin.webp" alt="GNTLCoin" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">GNTLCoin</strong>
+													<div class="pool-algo"><span id="gntlcoin_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="gntlcoin_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="gntlcoin_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="gntlcoin_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="gntlcoin_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="gntlcoin_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="gntlcoin_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="gntlcoin_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="gntlcoin_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="gntlcoin_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="xkr" id="Kryptokrona">
+											<div class="card-header">
+												<a class="hot_link" href="xkr"><img src="assets/img/coins/kryptokrona.webp" alt="Kryptokrona" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Kryptokrona</strong>
+													<div class="pool-algo"><span id="kryptokrona_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="kryptokrona_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="kryptokrona_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="kryptokrona_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="kryptokrona_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="kryptokrona_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="kryptokrona_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="kryptokrona_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="kryptokrona_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="kryptokrona_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="ccx" id="Conceal">
+											<div class="card-header">
+												<a class="hot_link" href="ccx"><img src="assets/img/coins/conceal.webp" alt="Conceal" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Conceal</strong>
+													<div class="pool-algo"><span id="conceal_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="conceal_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="conceal_poolWorkers">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="conceal_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="conceal_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="conceal_poolDifficulty">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="conceal_poolBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="conceal_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="conceal_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="conceal_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="btc" id="bitcoin">
+											<div class="card-header">
+												<a class="hot_link" href="btc"><img src="assets/img/coins/bitcoin.webp" alt="Bitcoin" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Bitcoin</strong>
+													<div class="pool-algo"><span id="btc_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="btc_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="btc_poolMiners">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="btc_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="btc_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="btc_networkDiff">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="btc_networkBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="btc_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="btc_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="btc_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="bch" id="BitcoinCash">
+											<div class="card-header">
+												<a class="hot_link" href="bch"><img src="assets/img/coins/bitcoincash.webp" alt="BitcoinCash" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Bitcoin Cash</strong>
+													<div class="pool-algo"><span id="bch_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="bch_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="bch_poolMiners">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="bch_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="bch_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="bch_networkDiff">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="bch_networkBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="bch_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="bch_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="bch_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="bchII" id="BitcoinCashII">
+											<div class="card-header">
+												<a class="hot_link" href="bchII"><img src="assets/img/coins/bitcoincashII.webp" alt="BitcoinCashII" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Bitcoin Cash II</strong>
+													<div class="pool-algo"><span id="bchII_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="bchII_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="bchII_poolMiners">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="bchII_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="bchII_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="bchII_networkDiff">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="bchII_networkBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="bchII_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="bchII_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="bchII_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="ltc" id="litecoin">
+											<div class="card-header">
+												<a class="hot_link" href="ltc"><img src="assets/img/coins/litecoin.webp" alt="Litecoin" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Litecoin</strong>
+													<div class="pool-algo"><span id="ltc_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="ltc_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="ltc_poolMiners">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="ltc_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="ltc_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="ltc_networkDiff">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="ltc_networkBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="ltc_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="ltc_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="ltc_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="soh" id="Stohncoin">
+											<div class="card-header">
+												<a class="hot_link" href="soh"><img src="assets/img/coins/stohncoin.webp" alt="Stohncoin" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Stohncoin</strong>
+													<div class="pool-algo"><span id="soh_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="soh_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="soh_poolMiners">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="soh_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="soh_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="soh_networkDiff">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="soh_networkBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="soh_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="soh_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="soh_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="fxtc" id="fxtc">
+											<div class="card-header">
+												<a class="hot_link" href="fxtc"><img src="assets/img/coins/fxtc.webp" alt="Fxtc" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Fxtc</strong>
+													<div class="pool-algo"><span id="fxtc_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="fxtc_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="fxtc_poolMiners">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="fxtc_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="fxtc_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="fxtc_networkDiff">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="fxtc_networkBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="fxtc_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="fxtc_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="fxtc_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="lcc" id="lcc">
+											<div class="card-header">
+												<a class="hot_link" href="lcc"><img src="assets/img/coins/lcc.webp" alt="Litecoin Cash" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Litecoin Cash</strong>
+													<div class="pool-algo"><span id="lcc_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="lcc_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="lcc_poolMiners">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="lcc_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="lcc_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="lcc_networkDiff">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="lcc_networkBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="lcc_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="lcc_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="lcc_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="maza" id="maza">
+											<div class="card-header">
+												<a class="hot_link" href="maza"><img src="assets/img/coins/maza.webp" alt="Mazacoin" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Mazacoin</strong>
+													<div class="pool-algo"><span id="maza_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="maza_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="maza_poolMiners">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="maza_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="maza_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="maza_networkDiff">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="maza_networkBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="maza_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="maza_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="maza_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+										<div class="pool-card search-pool-id" data-href="fix" id="fixedcoin">
+											<div class="card-header">
+												<a class="hot_link" href="fix"><img src="assets/img/coins/fix.webp" alt="Fixedcoin" width="48" height="48"></a>
+												<div>
+													<strong class="search-pool-name">Fixedcoin</strong>
+													<div class="pool-algo"><span id="fix_algorithm">...</span>
+													</div>
+												</div>
+											</div>
+											<div class="pool-stats">
+												<div class="stat-item"><span class="stat-label">Hashrate</span><strong id="fix_poolHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Workers</span><strong id="fix_poolMiners">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Blocks Found</span><strong id="fix_blocksFound">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Network Hashrate</span><strong id="fix_networkHashrate">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Difficulty</span><strong id="fix_networkDiff">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Height</span><strong id="fix_networkBlockheight">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Luck</span><strong id="fix_hasheffort">...</strong>
+												</div>
+												<div class="stat-item"><span class="stat-label">Block Reward</span><strong id="fix_poolBlockReward">...</strong>
+												</div>
+												<div class="stat-item stat-algo"><span class="stat-label">Algorithm</span><strong id="fix_algorithm_replicate">...</strong>
+												</div>
+											</div>
+										</div>
+									</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+
+		<!---====== FOOTER Start ===========-->
+		<section id="footer">
+				<div class="row">
+
+					<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">
+
+						<!-- CONTACT Start -->
+						<div id="contact">
+							<h2 class="major" data-i18n="contact">Contact</h2>
+							<form method="post" action="assets/vendors/form/send.php">
+								<div class="fields">
+									<div class="field">
+										<label for="Name" data-i18n="name">Name</label>
+										<input type="text" class="form-control" name="Name" id="Name" />
+									</div>
+									<div class="field">
+										<label for="Email" data-i18n="email">Email</label>
+										<input type="Email" class="form-control" name="Email" id="Email" />
+									</div>
+									<div class="field">
+										<label for="Message" data-i18n="message">Message</label>
+										<textarea name="Message" class="form-control" id="Message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</div>
+						<!-- CONTACT End -->
+
+					</div>
+
+					<div class="col-6 col-12-xsmall col-12-small col-6-medium col-6-large col-6-xlarge">
+
+						<!-- SOCIAL NETWORKS Start -->
+						<h2 class="major" data-i18n="social-networks">Social Networks</h2>
+						<div class="row">
+							<div class="col-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="textbox">
+									<div class="textbox-image"><a target="_blank"
+											href="https://twitter.com/SuperBlockchaim"><i
+												class="icon brands fa-twitter fa-2x"></i></a></div>
+								</div>
+							</div>
+							<div class="col-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="textbox">
+									<div class="textbox-image"><a target="_blank"
+											href="https://www.facebook.com/superblockchainpool/"><i
+												class="icon brands fa-facebook-f fa-2x"></i></a></div>
+								</div>
+							</div>
+							<div class="col-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="textbox">
+									<div class="textbox-image"><a target="_blank"
+											href="https://t.me/joinchat/FGO99xKu_KNJCwCJcu3kow"><i
+												class="icon brands fa-telegram fa-2x"></i></a></div>
+								</div>
+							</div>
+							<div class="col-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="textbox">
+									<div class="textbox-image"><a target="_blank" href="https://discord.gg/GenJJ6H"><i
+												class="icon brands fa-discord fa-2x"></i></a></div>
+								</div>
+							</div>
+						</div>
+						<!-- SOCIAL NETWORKS End -->
+
+						<!-- DONATIONS Start -->
+						<h2 class="major" data-i18n="donations">Donations</h2>
+						<div class="row">
+							<div class="col-6 col-6-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
+								<div class="textbox">
+									<div class="textbox-image"><img class="textbox-image-donation"
+											src="assets/img/donations/bitcoin.webp" alt="Donate Bitcoin"></div>
+								</div>
+							</div>
+							<div class="col-6 col-6-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
+								<div class="textbox">
+									<div class="textbox-image"><img class="textbox-image-donation"
+											src="assets/img/donations/bitcoincash.webp" alt="Donate Bitcoin Cash"></div>
+								</div>
+							</div>
+							<div class="col-6 col-6-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
+								<div class="textbox">
+									<div class="textbox-image"><img class="textbox-image-donation"
+											src="assets/img/donations/ethereum.webp" alt="Donate Ethereum"></div>
+								</div>
+							</div>
+							<div class="col-6 col-6-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
+								<div class="textbox">
+									<div class="textbox-image"><img class="textbox-image-donation"
+											src="assets/img/donations/litecoin.webp" alt="Donate Litecoin"></div>
+								</div>
+							</div>
+						</div>
+						<!-- DONATIONS End -->
+
+					</div>
+
+					<!-- SUBFOOTER Start -->
+					<div class="subfooter">
+						<div class="row">
+							<!-- FOOTER MENU Start -->
+							<div class="col-8 col-12-xsmall col-12-small col-9-medium col-9-large col-9-xlarge bottom-menu-standard-initial">
+								<h3 class="bottom-menu-standard-title" data-i18n="menu">Menu</h3>
+								<div class="row">
+									<div class="col-6 col-12-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
+										<ul class="bottom-menu-standard">
+											<li><a class="bottom-menu-standard-link" href="/" data-i18n="home">Home</a></li>
+											<li><a class="bottom-menu-standard-link" href="/wallets-and-payment-gateways" data-i18n="wallets">Wallets</a></li>
+											<li><a class="bottom-menu-standard-link" href="/webminer" data-i18n="webminer">Webminer</a></li>
+											<li><a class="bottom-menu-standard-link" href="/#pools"	data-i18n="pools">Pools</a></li>
+										</ul>
+									</div>
+									<div class="col-6 col-12-xsmall col-6-small col-6-medium col-6-large col-6-xlarge">
+										<ul class="bottom-menu-standard">
+											<li><a class="bottom-menu-standard-link" href="/faucets" data-i18n="faucets">Faucets</a></li>
+											<li><a class="bottom-menu-standard-link" href="/exchanges" data-i18n="exchanges">Exchanges</a></li>
+											<li><a class="bottom-menu-standard-link" href="/loans-and-earn-interests" data-i18n="loans-and-earn-interests">Loans and Earn Interests</a></li>
+											<li><a class="bottom-menu-standard-link" href="/#contact" data-i18n="contact">Contact</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- FOOTER MENU End -->
+							<!-- LEGAL MENU Start -->
+							<div class="col-4 col-12-xsmall col-12-small col-3-medium col-3-large col-3-xlarge bottom-menu-legal-initial">
+								<h3 class="bottom-menu-legal-title" data-i18n="legal">Legal</h3>
+								<ul class="bottom-menu-legal">
+									<li><a class="bottom-menu-legal-link" href="/privacy-policy" data-i18n="privacy-policy">Privacy Policy</a></li>
+									<li><a class="bottom-menu-legal-link" href="/cookie-policy" data-i18n="cookie-policy">Cookie Policy</a></li>
+									<li><a class="bottom-menu-legal-link" href="/terms-of-service" data-i18n="terms-of-service">Terms of Service</a></li>
+								</ul>
+							</div>
+							<!-- LEGAL MENU End -->
+							<!-- COPYRIGHT Start -->
+							<div class="col-12 col-12-xsmall col-12-small col-12-medium col-12-large col-12-xlarge">
+								<div class="copyright">
+									<p data-i18n="copyright">Copyright &copy; <span id="current-year"> 2026</span>SuperBlockchain Pool Inc. All rights reserved.</p>
+								</div>
+							</div>
+							<!-- COPYRIGHT End -->						
+						</div>
+					</div>
+					<!-- SUBFOOTER End -->
+				</div>
+		</section>
+		<!---====== FOOTER End ===========-->
+
+		<!---====== GDPR Cookies Start ===========-->
+		<div id="gdpr">
+			<div class="gdpr-message">
+				<span data-i18n="gdpr-message">We use our own and third-party cookies to obtain statistical data on the
+					navigation of our users and improve our services. If you accept or continue browsing, we consider
+					that you accept their use.</span></a>
+			</div>
+			<div class="gdpr-buttons">
+				<button class="gdpr-button" onclick="acceptCookies()"><span data-i18n="gdpr-accept">Ok, I
+						agree</span></button>
+				<button class="gdpr-button privacy-policy" onclick="privacyPolicy()"><span
+						data-i18n="gdpr-privacy-policy">Privacy Policy</span></button>
+			</div>
+		</div>
+		<!---====== GDPR Cookies End ===========-->
+
+		<!---====== LANG Start ===========-->
+		<div class="lenguage locale-switcher">
+			<span class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+				aria-haspopup="true" aria-expanded="true"><i class="fa fa-globe"></i></span>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				<a class="dropdown-item" href="#" data-i18n="CN" data-locale="zh">CN</a>
+				<a class="dropdown-item" href="#" data-i18n="DE" data-locale="de">DE</a>
+				<a class="dropdown-item" href="#" data-i18n="EN" data-locale="en">EN</a>
+				<a class="dropdown-item" href="#" data-i18n="ES" data-locale="es">ES</a>
+				<a class="dropdown-item" href="#" data-i18n="FR" data-locale="fr">FR</a>
+				<a class="dropdown-item" href="#" data-i18n="RU" data-locale="ru">RU</a>
+			</div>
+		</div>
+		<!---====== LANG End ===========-->
+
+	</div>
+	<!---====== PAGE End ===========-->
+
+	<!---====== SCRIPT Start ===========-->
+	<script type="application/ld+json">
 				{
 				  "@context" : "http://schema.org",
 				  "@type" : "Organization",
 				  "name" : "SuperBlockchain Pool",
-				 "url" : "https://superblockchain.con-ip.com",
+				 "url" : "https://superblockchain.zapto.org",
 				 "sameAs" : [
 				   "https://twitter.com/SuperBlockchaim",
 				   "https://www.facebook.com/superblockchainpool/",
@@ -632,22 +934,19 @@
 					"addressCountry": "Spain"
 				  }
 				}
-			</script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/checkLang.js"></script>
-			<script src="assets/js/jquery.i18n.js"></script>
-    		<script src="assets/js/jquery.i18n.messagestore.js"></script>
-    		<script src="assets/js/jquery.i18n.parser.js"></script>
-    		<script src="assets/js/global.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.min.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/cookies.js"></script>
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125118371-1"></script>
-			<script src="assets/js/analytics.js"></script>
-			<!---====== SCRIPT End ===========-->
-	
-	</body>
+	</script>
+	<script src="assets/vendors/jquery/jquery.min.js"></script>
+	<script src="assets/vendors/jquery/jquery.i18n.js"></script>
+	<script src="assets/vendors/jquery/jquery.i18n.messagestore.js"></script>
+	<script src="assets/vendors/jquery/jquery.i18n.parser.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/cookies.js"></script>
+	<script defer src="assets/js/poolinfo.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125118371-1"></script>
+	<script defer src="assets/js/analytics.js"></script>
+	<script src="assets/js/search.js"></script>
+	<!---====== SCRIPT End ===========-->
+</body>
 </html>

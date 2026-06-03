@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: http://explorer.bitcoinnova.org/sitemap.xml

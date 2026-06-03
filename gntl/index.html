@@ -4,20 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
-    <meta name="title" content="SuperBlockchain Pool - GNTLCoin"/>
+    <meta name="title" content="SuperBlockchain Pool - Gntlcoin"/>
     <meta name="description" content="SuperBlockchain Pool is a mining group specializing in cryptonight cryptocurrency mining. Start getting your first coins in a very fast and safe way."/>
-    <meta name="keywords" content="superblockchain, superblockchain pool, mining, pool, mining pool, payments gateway, faucet, webminer, exchange, wallet, cryptocurrency, monero, qwertycoin, cirquity, gntlcoin, nibble, zentcash, bitrex, coinmarketcap, start mining, payments, coinbase, bitrex">
-    <meta property="og:title" content="SuperBlockchain Pool - GNTLCoin"/>
+    <meta name="keywords" content="superblockchain, superblockchain pool, mining, pool, mining pool, payments gateway, faucet, webminer, exchange, wallet, cryptocurrency, monero, sumokoin, cirquity, bitcoinnova, zentcash, bittrex, coinmarketcap, start mining, payments, coinbase">
+    <meta property="og:title" content="SuperBlockchain Pool - Gntlcoin"/>
 	<meta property="og:description" content="SuperBlockchain Pool is a mining group specializing in cryptonight cryptocurrency mining. Start getting your first coins in a very fast and safe way."/>
-	<meta property="og:image" content="https://superblockchain.con-ip.com/gntl/pamphlet-gntlcoin.webp"/>
 	<meta property="og:url" content="https://superblockchain.con-ip.com/gntl/"/>
-	<meta property="og:site_name" content="SuperBlockchain Pool - GNTLCoin"/>
+	<meta property="og:site_name" content="SuperBlockchain Pool - Gntlcoin"/>
 	<meta property="og:locale" content="en_US"/>
     <meta property="og:type" content="website"/>
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="SuperBlockchain Pool - GNTLCoin" />
-    <meta name="twitter:description" content="SuperBlockchain Pool is a mining group specializing in cryptonight cryptocurrency mining. Start getting your first coins in a very fast and safe way." />
-    <meta name="twitter:image" content="https://superblockchain.con-ip.com/gntl/pamphlet-gntlcoin.webp" />
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="SuperBlockchain Pool - Gntlcoin"/>
+    <meta name="twitter:description" content="SuperBlockchain Pool is a mining group specializing in cryptonight cryptocurrency mining. Start getting your first coins in a very fast and safe way."/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.6.3/jquery.timeago.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script>
@@ -28,10 +26,10 @@
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" rel="stylesheet">
-    <link href="themes/default.css?" rel="stylesheet">
+    <link href="themes/default.css" rel="stylesheet">
     <link href="themes/custom.css" rel="stylesheet">
-    <link rel="icon" type="image/ico" href="/gntl/favicon.ico"/>
-    <title>SuperBlockchain Pool - GNTLCoin</title>
+    <link rel="icon" type="image/ico" href="./favicon.ico"/>
+    <title>SuperBlockchain Pool</title>
 </head>
 
 <body>
@@ -40,8 +38,8 @@
 
     <!-- Navigation -->
     <div class="nav-side-menu">
-      <div class="brand"><a href="/" title="Return to SuperBlockchain Pool"><span>SuperBlockchain Pool</span><span class="coin-hide"> - </span><span class="coin-hide">GNTLCoin</span></a></div>
-      <div class="brand coin-hide"><a href="/gntl"><span>GNTLCoin</span></a></div>
+      <div class="brand"><a href="/" title="Return to SuperBlockchain Pool"><span>SuperBlockchain Pool</span><span class="coin-hide"> - </span><span id="coinname_1" class="coin-hide"></span></a></div>
+      <div class="brand coin-hide"><a href="./"><span id="coinname_2"></span></a></div>
         <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
         <div class="menu-list">
             <ul id="menu-content" class="menu-content collapsed out">
@@ -85,46 +83,105 @@
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-rocket"></i><span data-tkey="more-pools"> More Pools</span> <span class="caret"></span></a>
 
-                        <ul class="dropdown-menu"> 
+                    <ul class="dropdown-menu">
 
-                            <li><a class="hot_link" href="https://superblockchain.con-ip.com/btn/" target="_blank">
-                                <i class="fa fa-share"></i>Bitcoin Nova
-                            </a></li>
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/infinium/" target="_blank">
+                            <i class="fa fa-share"></i>Infinium
+                        </a></li>
+                        
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/zano/" target="_blank">
+                            <i class="fa fa-share"></i>Zano
+                        </a></li>
 
-                            <li><a class="hot_link" href="https://superblockchain.con-ip.com/cirq/" target="_blank">
-                                <i class="fa fa-share"></i>Cirquity
-                            </a></li>
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/evo/" target="_blank">
+                            <i class="fa fa-share"></i>Evolution
+                        </a></li>
 
-                            <li><a class="hot_link" href="https://superblockchain.con-ip.com/ztc/" target="_blank">
-                                <i class="fa fa-share"></i>Zent Cash
-                            </a></li>
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/nir/" target="_blank">
+                            <i class="fa fa-share"></i>Nirmata
+                        </a></li>
 
-                            <li><a class="hot_link" href="https://superblockchain.con-ip.com/gns/" target="_blank">
-                                <i class="fa fa-share"></i>GoodNess
-                            </a></li>
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/btn/" target="_blank">
+                            <i class="fa fa-share"></i>Bitcoin Nova
+                        </a></li>
 
-                            <li><a class="hot_link" href="https://superblockchain.con-ip.com/wxtc/" target="_blank">
-                                <i class="fa fa-share"></i>WeChain
-                            </a></li>
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/cirq/" target="_blank">
+                            <i class="fa fa-share"></i>Cirquity
+                        </a></li>
 
-                            <li><a class="hot_link" href="https://superblockchain.con-ip.com/scsx/" target="_blank">
-                                <i class="fa fa-share"></i>Secure Cash
-                            </a></li>
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/ztc/" target="_blank">
+                            <i class="fa fa-share"></i>Zent Cash
+                        </a></li>
 
-                            <li><a class="hot_link" href="https://superblockchain.con-ip.com/qwc/" target="_blank">
-                                <i class="fa fa-share"></i>Qwertycoin
-                            </a></li>
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/btcn/" target="_blank">
+                            <i class="fa fa-share"></i>BitcoinMono
+                        </a></li>
 
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/xte/" target="_blank">
+                            <i class="fa fa-share"></i>Traitt
+                        </a></li>
 
-                            <li><a class="hot_link" href="https://superblockchain.con-ip.com/nbxc/" target="_blank">
-                                <i class="fa fa-share"></i>Nibble
-                            </a></li>
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/xtcash/" target="_blank">
+                            <i class="fa fa-share"></i>TraittCash
+                        </a></li>
 
-                            <li><a class="hot_link" href="https://superblockchain.con-ip.com/xmr/" target="_blank">
-                                <i class="fa fa-share"></i>Monero
-                            </a></li>                            
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/sispop/" target="_blank">
+                            <i class="fa fa-share"></i>Sispop
+                        </a></li>
 
-                       </ul>
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/zeph/" target="_blank">
+                            <i class="fa fa-share"></i>Zephyr
+                        </a></li>
+
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/xmr/" target="_blank">
+                            <i class="fa fa-share"></i>Monero
+                        </a></li>
+
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/mrl/" target="_blank">
+                            <i class="fa fa-share"></i>Morelo
+                        </a></li>
+
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/gntl/" target="_blank">
+                            <i class="fa fa-share"></i>GNTLCoin
+                        </a></li>
+
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/scsx/" target="_blank">
+                            <i class="fa fa-share"></i>SecureCash
+                        </a></li>
+
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/krypto/" target="_blank">
+                            <i class="fa fa-share"></i>Kryptokrona
+                        </a></li>
+
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/qwc/" target="_blank">
+                            <i class="fa fa-share"></i>Qwertycoin
+                        </a></li>
+
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/xmc/" target="_blank">
+                            <i class="fa fa-share"></i>MoneroClassic
+                        </a></li>
+
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/xhv/" target="_blank">
+                            <i class="fa fa-share"></i>Haven
+                        </a></li>
+
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/bloc/" target="_blank">
+                            <i class="fa fa-share"></i>BlocMoney
+                        </a></li>
+
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/ccx/" target="_blank">
+                            <i class="fa fa-share"></i>Conceal
+                        </a></li>
+
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com//" target="_blank">
+                            <i class="fa fa-share"></i>Sumokoin
+                        </a></li>  
+                        
+                        <li><a class="hot_link" href="https://superblockchain.con-ip.com/xeq/" target="_blank">
+                            <i class="fa fa-share"></i>Equilibria
+                        </a></li>
+
+                   </ul>
                 </li>
 
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -135,8 +192,9 @@
                 <li><a class="hot_link" href="/">
                     <i class="fa fa-share invert"></i><span data-tkey="return-home">Return Home Page</span>
                 </a></li> 
-
+                    
             </ul>
+   
         </div>
     </div>
 
@@ -149,6 +207,10 @@
         <div><span id="statsUpdated"><span data-tkey="statsUpdated">Stats Updated</span> &nbsp;</span></div>
         <div id="langSelector"></div>
     </div>
+
+    <div class="darkmode">
+        <buttom class="btn btn-primary" id="darkModeToggle"><i id="themeIcon" class="fa fa-sun-o"></i></buttom>
+    </div> 
 
     <!-- Page content -->
     <div id="page-wrapper">

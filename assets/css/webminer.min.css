@@ -1,0 +1,22 @@
+#page-wrapper {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+#webminer-wrapper{
+    margin-top: 6rem;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.web-miners {
+    background: linear-gradient(107deg, #ee5252, #3c53e7, #23a6d5, #23d531);
+    background-size: 300% 300%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 5px;
+    animation: gradient 4s ease infinite;
+}
+.web-miners-information-window {
+    margin: 0.5rem;
+    text-align: justify;
+}
+.row.webminer {
+    margin-left: 0em;
+}

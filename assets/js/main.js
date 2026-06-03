@@ -3,6 +3,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+ if (window.top !== window.self) {
+      window.top.location = window.location.href;
+  }
 
 (function($) {
 

@@ -5,4 +5,4 @@ Disallow: assets/css/
 Disallow: assets/sass/
 Disallow: assets/vendors/
 Disallow: assets/webfonts/
-Sitemap: https://superblockchain.con-ip.com/sitemap.xml
+Sitemap: https://superblockchain.zapto.org/sitemap.xml

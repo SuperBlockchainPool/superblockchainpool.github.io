@@ -132,8 +132,89 @@
             </tr>
             </thead>
             <tbody id="miningApps_rows">
+
+
+            <!-- SRBMiner-Multi -->
+            <tr class="appInfo">
+                <td class="miningAppTitle">SRBMiner-Multi</td>
+                <td>CPU</td>
+                <td>CPU & AMD GPU cryptocurrency miner.</td>
+                <td><a class="btn btn-success" target="_blank" href="https://github.com/doktor83/SRBMiner-Multi/releases"><span data-tkey="download">Download</span></a></td>
+                <td><a class="btn btn-default" role="button" data-toggle="collapse" href="#srbminer" aria-expanded="true" aria-controls="collapseExample"><span data-tkey="showConfig">See more</span></a></td>
+            </tr>
+            <tr class="appConfig">
+                <td colspan="5">
+                    <div class="collapse" id="srbminer">
+                        <pre>
+                            <code>
+                            SRBMiner-MULTI.exe --algorithm yespowerdogemone --pool <span class="exampleHost">POOL_HOST</span>:<span class="examplePort">PORT</span>" --wallet <span class="exampleLogin">YOUR_WALLET_ADDRESS</span> --password <span class="examplePassword">YOUR_WORKER_NAME</span> --cpu-threads 0 --disable-gpu
+                            </code>
+                        </pre>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- SBP Miner -->
+            <tr class="appInfo">
+                <td class="miningAppTitle">SBP Miner</td>
+                <td>CPU</td>
+                <td>SBP Miner, optimized with YespowerR32+Blake256</td>
+                <td><a class="btn btn-success" target="_blank" href="https://github.com/SuperBlockchain-Pool/sbp-miner/releases"><span tkey="download">Download</span></a></td>
+                <td><a class="btn btn-default" role="button" data-toggle="collapse" href="#sbp-miner" aria-expanded="true" aria-controls="collapseExample"><span data-tkey="showConfig">See more</span></a></td>
+              </tr>
+              <tr class="appConfig">
+                <td colspan="5">
+                  <div class="collapse" id="sbp-miner">
+                      <pre><code>
+
+                        <span><b>./sbp -c config.json</b></span>
+
+                        <span tkey="file-config-json-sbp-miner">File config JSON:</span>
+
+                        {
+                          "url": "<span class="exampleHost">POOL_HOST</span>:<span class="examplePort">PORT</span>",
+                          "user": "<span class="exampleLogin">YOUR_WALLET_ADDRESS</span>",
+                          "pass": "<span class="examplePassword">YOUR_WORKER_NAME</span>",
+                          "av": 3
+                        }
+
+                      </code></pre>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- XMRig Dogemone -->
+              <tr class="appInfo">
+                <td class="miningAppTitle">XMRig Dogemone</td>
+                <td>CPU</td>
+                <td>XMRIG Fork, optimized with remote control.</td>
+                <td><a class="btn btn-success" target="_blank" href="https://github.com/HashHound/Xmrig-dogemone/releases"><span tkey="download">Download</span></a></td>
+                <td><a class="btn btn-default" role="button" data-toggle="collapse" href="#xmrig-dogemone" aria-expanded="true" aria-controls="collapseExample"><span tkey="showConfig">See more</span></a></td>
+              </tr>
+              <tr class="appConfig">
+                <td colspan="5">
+                  <div class="collapse" id="xmrig-dogemone">
+                      <pre>
+                        <code>
+
+                          <span><b>./xmrig -c config.json</b></span>
+
+                          <span tkey="file-config-json-xmrig-dogemone">File config JSON:</span>
+
+                          {
+                                 "url": "<span class="exampleHost">POOL_HOST</span>:<span class="examplePort">PORT</span>",
+                                 "user": "<span class="exampleLogin">YOUR_WALLET_ADDRESS</span>",
+                                 "pass": "<span class="examplePassword">YOUR_WORKER_NAME</span>",
+                                 "av": 3
+                          }
+
+                        </code>
+                      </pre>
+                  </div>
+                </td>
+              </tr>   
 	    
-	    <!-- XMR Stak -->
+	         <!-- XMR Stak 
             <tr class="appInfo">
                 <td class="miningAppTitle">XMR Stak</td>
                 <td>CPU & GPU (AMD/NVIDIA)</td>
@@ -162,8 +243,9 @@
                     </div>
                 </td>
             </tr>
+            -->
 	    
-	    <!-- XMRig -->
+	        <!-- XMRig 
             <tr class="appInfo">
                 <td class="miningAppTitle">XMRig</td>
                 <td>CPU</td>
@@ -190,8 +272,9 @@
                     </div>
                 </td>
             </tr>
+            -->
 
-	    <!-- XMRig-AMD -->
+	         <!-- XMRig-AMD 
             <tr class="appInfo">
                 <td class="miningAppTitle">XMRig-AMD</td>
                 <td>OpenCL (AMD)</td>
@@ -218,8 +301,9 @@
                     </div>
                 </td>
             </tr>
+            -->
 
-	    <!-- XMRig-NVIDIA -->
+	        <!-- XMRig-NVIDIA 
             <tr class="appInfo">
                 <td class="miningAppTitle">XMRig-NVIDIA</td>
                 <td>Cuda (Nvidia)</td>
@@ -246,8 +330,9 @@
                     </div>
                 </td>
             </tr>
+            -->
 
-	    <!-- XMRigCC -->
+	        <!-- XMRigCC 
             <tr class="appInfo">
                 <td class="miningAppTitle">XMRigCC</td>
                 <td>CPU</td>
@@ -274,8 +359,9 @@
                     </div>
                 </td>
             </tr>
+            -->
 
-                    <!-- Team Red Miner -->
+            <!-- Team Red Miner 
             <tr class="appInfo">
                 <td class="miningAppTitle">Team Red Miner</td>
                 <td>GPU</td>
@@ -292,7 +378,7 @@
                     </div>
                 </td>
             </tr>
-	    
+            -->
             </tbody>
         </table>
     </div>
@@ -353,6 +439,9 @@ currentPage = {
                 algorithm = 'Argon2id WRKZ';
             else
                 algorithm = 'Argon2id Chukwa';
+        } else if (cnAlgorithm == "yespower_blake256") {
+                algorithm = 'YespowerR32 + Blake256';
+                xmrstakAlgo = 'null';
         } else if (cnAlgorithm == "randomx") {
             if (cnVariant === 1)
                 algorithm = 'CryptoNight DefyX';

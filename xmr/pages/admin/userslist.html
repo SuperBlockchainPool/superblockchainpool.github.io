@@ -28,7 +28,7 @@
                         <tbody id="template">
     			{{#users}}
             		    <tr>
-                	        <td class="col1"><a href="/xmr?{{coin}}={{miner}}{{#childWallet}}&{{childWallet}}{{/childWallet}}#worker_stats">{{miner}}</a></td>
+                	        <td class="col1"><a href="./?{{coin}}={{miner}}{{#childWallet}}&{{childWallet}}{{/childWallet}}#worker_stats">{{miner}}</a></td>
                     		<td class="col2" data-sort="{{wallet.hashrate}}">{{readableHashrate}}</td>
                     		<td class="col3" data-sort="{{wallet.hashes}}">{{readableHashes}}</td>
                     		<td class="col4" data-sort="{{wallet.pending}}">{{readablePending}}</td>

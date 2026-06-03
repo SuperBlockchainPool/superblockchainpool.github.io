@@ -1,4 +1,4 @@
-var api = "https://superblockchain.con-ip.com:34002";
+var api = "https://superblockchain.zapto.org/api/xmr";
 let parentCoin = "Monero"
 
 var email = "superblockchain2018@gmail.com";
@@ -8,7 +8,7 @@ var facebook = "https://www.facebook.com/superblockchainpool";
 var twitter = "https://twitter.com/SuperBlockchaim";
 var instagram = "https://www.instagram.com/superblockchainpool/";
 
-var marketCurrencies = ["{symbol}-BTC", "{symbol}-LTC", "{symbol}-DOGE", "{symbol}-USD"];
+var marketCurrencies = ["{symbol}-BTC", "{symbol}-LTC", "{symbol}-USDT"];
 
 var themeCss = "themes/default.css";
 var defaultLang = 'en';

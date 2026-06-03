@@ -1,0 +1,11 @@
+#page-wrapper {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+#terms-of-service-wrapper {
+    margin-top: 6rem;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.terms-of-service-contents p.together {
+    margin: 0 0 0.5em 0;
+}

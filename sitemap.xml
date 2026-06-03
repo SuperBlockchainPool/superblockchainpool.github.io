@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://superblockchain.zapto.org/</loc>
+  <lastmod>2025-11-07T08:20:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/wallets-and-payment-gateways</loc>
+  <lastmod>2025-11-07T08:21:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/webminer</loc>
+  <lastmod>2025-11-07T08:21:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/faucets</loc>
+  <lastmod>2025-11-07T08:20:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/exchanges</loc>
+  <lastmod>2025-11-07T08:20:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/btc/</loc>
+  <lastmod>2025-08-03T12:17:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/bch/</loc>
+  <lastmod>2025-08-03T12:17:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/ltc/</loc>
+  <lastmod>2025-08-03T12:17:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/doge/</loc>
+  <lastmod>2025-08-03T12:17:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/xmr/</loc>
+  <lastmod>2024-12-01T23:43:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/zeph/</loc>
+  <lastmod>2024-12-01T21:39:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/gntl/</loc>
+  <lastmod>2024-12-01T23:51:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/mrl/</loc>
+  <lastmod>2024-11-27T21:06:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/infinium/</loc>
+  <lastmod>2024-11-27T21:00:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/all</loc>
+  <lastmod>2025-11-07T08:19:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/privacy-policy</loc>
+  <lastmod>2025-11-07T08:20:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/cookie-policy</loc>
+  <lastmod>2025-11-07T08:20:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/terms-of-service</loc>
+  <lastmod>2025-11-07T08:20:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/btc/wallet.html</loc>
+  <lastmod>2025-08-03T12:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/btc/miners.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/btc/blocks.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/btc/payments.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/btc/connect.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/bch/wallet.html</loc>
+  <lastmod>2025-08-03T12:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/bch/miners.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/bch/blocks.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/bch/payments.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/bch/connect.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/ltc/wallet.html</loc>
+  <lastmod>2025-08-03T12:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/ltc/miners.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/ltc/blocks.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/ltc/payments.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/ltc/connect.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/doge/wallet.html</loc>
+  <lastmod>2025-08-03T12:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/doge/miners.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/doge/blocks.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/doge/payments.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/doge/connect.html</loc>
+  <lastmod>2025-08-03T12:12:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/zano/</loc>
+  <lastmod>2024-12-01T21:41:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/evox/</loc>
+  <lastmod>2024-12-01T23:52:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/nir/</loc>
+  <lastmod>2024-12-01T23:50:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/ztc/</loc>
+  <lastmod>2024-11-27T09:57:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/btn/</loc>
+  <lastmod>2024-12-01T23:55:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/xkr/</loc>
+  <lastmod>2024-11-27T21:11:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/ccx/</loc>
+  <lastmod>2024-12-01T23:54:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://superblockchain.zapto.org/soh/</loc>
+  <lastmod>2025-08-03T12:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+</urlset>

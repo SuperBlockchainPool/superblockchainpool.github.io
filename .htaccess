@@ -1,0 +1,10 @@
+# Activar mod_rewrite
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Si el archivo solicitado no es un directorio
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # Si el archivo con la extensión .html existe
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    # Reescribe la URL para eliminar la extensión .html
+    RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.html [L]
+</IfModule>

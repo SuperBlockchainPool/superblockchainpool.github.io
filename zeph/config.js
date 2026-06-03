@@ -1,4 +1,4 @@
-var api = "https://superblockchain.con-ip.com:34016";
+var api = "https://superblockchain.zapto.org/api/zeph";
 let parentCoin = "Zephyr";
 
 var email = "superblockchain2018@gmail.com";
