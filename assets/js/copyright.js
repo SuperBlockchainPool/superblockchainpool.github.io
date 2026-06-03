@@ -1,4 +1,8 @@
-const getCurrentYear = ()=>{
-    return new Date().getFullYear();
+function updateCopyrightYear() {
+    const currentYear = new Date().getFullYear();
+    const copyrightElement = document.getElementById('current-year');
+    if (copyrightElement) {
+        copyrightElement.textContent = currentYear;
+    }
 }
-document.getElementById('current-year').textContent = getCurrentYear()
+setInterval(updateCopyrightYear, 1000); 

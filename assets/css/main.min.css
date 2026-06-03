@@ -308,7 +308,7 @@ section {
     display: block;
 }
 body {
-    background: linear-gradient(180deg, #06121c 0%, #00060d 100%);
+    background: linear-gradient(180deg, #0f2638 0%, #000000 100%);
 	color: #eef2f7;
 }
 
@@ -954,10 +954,7 @@ hr.major {
     .row.gtr-50.gtr-uniform > * {
         padding-top: 0.875em;
     }
-    .row {
-        margin-top: 0;
-        margin-left: -1.75em;
-    }
+
  
     .row.gtr-uniform {
         margin-top: -1.75em;
@@ -1137,11 +1134,6 @@ hr.major {
     .row.gtr-50.gtr-uniform > * {
         padding-top: 0.875em;
     }
-    .row {
-        margin-top: 0;
-        margin-left: -1.75em;
-    }
-
     .row.gtr-uniform {
         margin-top: -1.75em;
     }
@@ -1319,10 +1311,6 @@ hr.major {
     }
     .row.gtr-50.gtr-uniform > * {
         padding-top: 0.875em;
-    }
-    .row {
-        margin-top: 0;
-        margin-left: -1.75em;
     }
     .row.gtr-uniform {
         margin-top: -1.75em;
@@ -1502,12 +1490,6 @@ hr.major {
     .row.gtr-50.gtr-uniform > * {
         padding-top: 0.625em;
     }
-    .row {
-        margin-top: 0;
-        margin-left: -1em;
-        margin-right: -1.8rem;
-    }
-
     .row.gtr-uniform {
         margin-top: -1.25em;
     }
@@ -1686,13 +1668,7 @@ hr.major {
     .row.gtr-50.gtr-uniform > * {
         padding-top: 0.625em;
     }
-    .row {
-        margin-top: 0;
-        margin-left: -1.25em;
-    }
-    .row > * {
-        padding: 0 0 0 1.25em;
-    }
+
     .row.gtr-uniform {
         margin-top: -1.25em;
     }
@@ -1870,13 +1846,6 @@ hr.major {
     }
     .row.gtr-50.gtr-uniform > * {
         padding-top: 0.625em;
-    }
-    .row {
-        margin-top: 0;
-        margin-left: -1.25em;
-    }
-    .row > * {
-        padding: 0 0 0 1.25em;
     }
     .row.gtr-uniform {
         margin-top: -1.25em;
