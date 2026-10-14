@@ -8,6 +8,8 @@
  * Layout
  **/
 
+const MERGED_MINING_ENABLED = false;
+
 // Collapse menu on load for mobile devices
 $('#menu-content').collapse('hide');
 
@@ -728,7 +730,7 @@ function poolBlocks_InitTemplate(ranOnce, displayedChart, xhrGetBlocks) {
 
     poolBlocks_RenderBlocks(lastStats.pool.blocks, lastStats);
 
-
+if (MERGED_MINING_ENABLED && typeof mergedStats !== 'undefined') {
     Object.keys(mergedStats).forEach(key => {
         if ($(`#blocksTabs li:contains(${key})`).length == 0) {
            let template1 = $('#siblingTemplate').html()
@@ -771,9 +773,11 @@ function poolBlocks_InitTemplate(ranOnce, displayedChart, xhrGetBlocks) {
         }
         poolBlocks_RenderBlocks(mergedStats[key].pool.blocks, mergedStats[key]);
     })
+    
     sortElementList($(`#blocksTabs`), $(`#blocksTabs>div`), mergedStats)
     if (!ranOnce) 
         ranOnce = RunOnce()
+}
 }
 
 /*
@@ -833,7 +837,7 @@ function top10Miners_InitTemplate(xhrGetMiners, ranOnce) {
     }
 
     top10Miners_UpdateTop10(xhrGetMiners, api, coin);
-
+if (MERGED_MINING_ENABLED && typeof mergedStats !== 'undefined') {
     Object.keys(mergedStats).forEach(key => {
         if ($(`#blocksTabs li:contains(${key})`).length === 0) {
             coin = key
@@ -852,6 +856,7 @@ function top10Miners_InitTemplate(xhrGetMiners, ranOnce) {
     sortElementList($(`#blocksTabs`), $(`#blocksTabs>li`), mergedStats)
     if (!ranOnce)
         ranOnce = RunOnce()
+}    
 }
 
 /*
@@ -968,7 +973,7 @@ function settings_SetPayoutLevel(api, address, ip, level, stats) {
         } else {
             settings_ShowError('Error:', data.status, null, stats);
         }
-    });
+    });    
 }
 
 /**
@@ -1062,7 +1067,7 @@ function settings_InitTemplate(ranOnce) {
         $('#blocksTabs').append(rendered)
         settings_Setup(api, lastStats)
     }
-
+if (MERGED_MINING_ENABLED && typeof mergedStats !== 'undefined') {
     Object.keys(mergedStats).forEach(key => {
         if ($(`#blocksTabs li:contains(${key})`).length === 0) {
             if (!mergedStats[key].config.sendEmails) 
@@ -1083,6 +1088,7 @@ function settings_InitTemplate(ranOnce) {
     sortElementList($(`#blocksTabs`), $(`#blocksTabs>li`), mergedStats)
     if (!ranOnce) 
       ranOnce = RunOnce()
+}    
 }
 
 /*
@@ -1196,7 +1202,7 @@ function payments_InitTemplate(xhrGetPayments, ranOnce) {
         updateText(`paymentsMinimum${coin}`, getReadableCoin(lastStats, lastStats.config.minPaymentThreshold));
         updateText(`paymentsDenomination${coin}`, getReadableCoin(lastStats, lastStats.config.denominationUnit, 3));
         payments_renderPayments(lastStats.pool.payments, lastStats);
-
+if (MERGED_MINING_ENABLED && typeof mergedStats !== 'undefined') {
         Object.keys(mergedStats).forEach(key => {
           if ($(`#blocksTabs li:contains(${key})`).length === 0) {
 
@@ -1223,6 +1229,7 @@ function payments_InitTemplate(xhrGetPayments, ranOnce) {
         sortElementList($(`#blocksTabs`), $(`#blocksTabs>li`), mergedStats)
         if (!ranOnce) 
           ranOnce = RunOnce()
+}        
 }
 
 /*
@@ -1462,7 +1469,7 @@ function market_CalcEstimateProfit(marketPrices){
     }
 
 
-
+if (MERGED_MINING_ENABLED && typeof mergedStats !== 'undefined') {
     Object.keys(mergedStats).forEach(key => {
         try {
             if ($(`#calcHashAmount${key}`).length == 0) {
@@ -1488,6 +1495,7 @@ function market_CalcEstimateProfit(marketPrices){
             updateText(`calcHashAmount${key}2`, '');
         }
     })
+}    
 }
 
 
@@ -1536,7 +1544,7 @@ function market_InitTemplate(ranOnce, chartsInitialized, loadedData, marketPrice
 
    market_LoadMarketData(api, lastStats, loadedData, currencyPairs, xhrMarketGets, marketPrices);
 
-
+if (MERGED_MINING_ENABLED && typeof mergedStats !== 'undefined') {
    Object.keys(mergedStats).forEach(key => {
         if ($(`#blocksTabs li:contains(${key})`).length === 0) {
             chartsInitialized[key] = false;
@@ -1574,7 +1582,7 @@ sortElementList($(`#blocksTabs`), $(`#blocksTabs>li`), mergedStats)
    if (!ranOnce) 
         ranOnce = RunOnce()
 }
-
+}
 /*
 ***************************************************************
 workerstats methods
@@ -2079,7 +2087,7 @@ function workerstats_InitTemplate(ranOnce, addressTimeout, xhrAddressPoll, xhrGe
       $('#tab-content').append(rendered)
       workerstats_Setup(lastStats, api, addressTimeout, xhrAddressPoll, xhrGetPayments)       
     }
-
+if (MERGED_MINING_ENABLED && typeof mergedStats !== 'undefined') {
     Object.keys(mergedStats).forEach(key => {
         if ($(`#blocksTabs li:contains(${key})`).length === 0) {
             coin = key
@@ -2101,7 +2109,7 @@ function workerstats_InitTemplate(ranOnce, addressTimeout, xhrAddressPoll, xhrGe
     if (!ranOnce) 
         ranOnce = RunOnce()    
 }
-
+}
 
 /*
 ***************************************************************
@@ -2337,7 +2345,7 @@ function home_InitTemplate(parentStats, siblingStats) {
         parentDivElement.appendChild(parentSpanElement);
         
        // priceExchangeElement.appendChild(parentDivElement);
-
+if (MERGED_MINING_ENABLED && typeof mergedStats !== 'undefined') {
         Object.keys(mergedStats).forEach(coinKey => {
             const childStats = mergedStats[coinKey];
             const childPrice = childStats.health[childStats.config.coin].price;
@@ -2363,7 +2371,7 @@ function home_InitTemplate(parentStats, siblingStats) {
             priceExchangeElement.appendChild(divElement);
         });
     }
-
+    }
     setInterval(updateExchangeInfo, 120000);
 
     updateExchangeInfo();

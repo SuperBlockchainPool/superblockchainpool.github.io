@@ -11,7 +11,7 @@
     <div class="col-sm-12">
         <br>
             <div class="infoAlert">
-                <div class="text-center"><span data-tkey="infoAlert">N/A</span></div>
+                <div class="text-center"><span data-tkey="infoAlert"></span></div>
             </div>
         <br>
     </div>
@@ -310,6 +310,13 @@ $(function(){
     });
 });
 
-home_InitTemplate(lastStats, mergedStats)
+home_InitTemplate(lastStats, mergedStats=false)
+
+let infoAlert = document.querySelector('.infoAlert');
+let infoText = infoAlert.querySelector('[data-tkey="infoAlert"]');
+
+if (infoText.textContent.trim().length < 3) {
+    infoAlert.style.display = 'none';
+}
 
 </script>

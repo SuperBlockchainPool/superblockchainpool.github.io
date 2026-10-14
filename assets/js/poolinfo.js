@@ -37,8 +37,6 @@ function getPoolMiningCore(poolID, poolURL){
                 poolBlockReward = 6.250
              } else if (poolId === 'doge'){
                 poolBlockReward = 10000
-             } else if (poolId === 'soh'){
-                poolBlockReward = 50
              } else if (poolId === 'fxtc'){
                 poolBlockReward = 0.00089
              } else if (poolId === 'lcc'){
@@ -47,8 +45,6 @@ function getPoolMiningCore(poolID, poolURL){
                 poolBlockReward = 0.06255323
              } else if (poolId === 'maza'){
                 poolBlockReward = 62.50
-             } else if (poolId === 'dgc'){
-                poolBlockReward = 1.25
              } else {
                 poolBlockReward = 0
              }; 
@@ -189,11 +185,9 @@ function updatePools() {
     getPoolMiningCore('bchII', 'https://superblockchain.zapto.org/miningcore/api/pools');
     getPoolMiningCore('ltc', 'https://superblockchain.zapto.org/miningcore/api/pools');
     getPoolMiningCore('doge', 'https://superblockchain.zapto.org/miningcore/api/pools');
-    getPoolMiningCore('soh', 'https://superblockchain.zapto.org/miningcore/api/pools');
     getPoolMiningCore('fxtc', 'https://superblockchain.zapto.org/miningcore/api/pools');
     getPoolMiningCore('fix', 'https://superblockchain.zapto.org/miningcore/api/pools');
     getPoolMiningCore('lcc', 'https://superblockchain.zapto.org/miningcore/api/pools');
-    getPoolMiningCore('dgc', 'https://superblockchain.zapto.org/miningcore/api/pools');
     getPoolMiningCore('maza', 'https://superblockchain.zapto.org/miningcore/api/pools');
 
 }
